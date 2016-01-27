@@ -1,17 +1,27 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
 
-## Commands
+<center><img src="./images/zeppelinhub_logo.png" height="40%" width="40%"></center>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+# ANALYZE, SHARE, AND REPEAT. 
 
-## Project layout
+Share your graphs and reports from [Apache Zeppelin](http://zeppelin.incubator.apache.org/) with anyone.
+Do not send a graph in a PDF or Powerpoint again.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## What is ZeppelinHub ?
+<center><iframe width="560" height="315" src="hts://www.youtube.com/embed/lKoan-fNYc8" frameborder="0" allowfullscreen></iframe></center>
+
+## Three advantages and Benefits of ZeppelinHub
+
+#### <img src="./images/connect.png" height="8%" width="8%"> Connect Apache Zeppelin and dynamically replicate your notebooks.
+
+If you installed Zeppelin and created ZeppelinHub account, you can generate a token for your Zeppelin instance. Then you can seamlessly connect your Zeppelin and ZeppelinHub. For more specific information about connection, please refer to **[Zeppelin integration with ZeppelinHub](./zeppelin_integration.html)** section.
+
+####  <img src="./images/share.png" height="8%" width="8%"> Share your notebook with anyone, anywhere. Instantly communicate and show your change on the fly.
+Apache Zeppelin provide a beautiful visualization for your data analysis results. Using ZeppelinHub, you can privately and publically publish the results to anyone you want to share. As you make changes in Zeppelin, it will be reflected to ZeppelinHub immediately.  
+
+#### <img src="./images/collaborate.png" height="8%" width="8%"> Create teams and spaces for sharing private notebooks.
+
+ZeppelinHub space is a unit of notebook sharing. You can privately share notebooks only your team having a permission. In ZeppelinHub, you can leave some comments below your notebook for the dynamic team work.
+ 
+## Discover the best of Zeppelin Notebooks
+[ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) is a community site for sharing Zeppelin notebooks. In viewer, you can explore some dramatic examples of Zeppelin notebooks.
