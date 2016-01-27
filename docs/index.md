@@ -8,7 +8,7 @@ Share your graphs and reports from [Apache Zeppelin](http://zeppelin.incubator.a
 Do not send a graph in a PDF or Powerpoint again.
 
 ## What is ZeppelinHub ?
-<center><iframe width="560" height="315" src="htt://www.youtube.com/embed/lKoan-fNYc8" frameborder="0" allowfullscreen></iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lKoan-fNYc8" frameborder="0" allowfullscreen></iframe></center>
 
 ## Three advantages and Benefits of ZeppelinHub
 
