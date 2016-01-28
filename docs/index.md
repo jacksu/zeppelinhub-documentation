@@ -1,6 +1,6 @@
 
 
-<center><img src="./images/zeppelinhub_logo.png" height="50%" width="50%"></center>
+<center><a href="https://www.zeppelinhub.com"><img src="./images/zeppelinhub_logo.png" height="50%" width="50%"></a></center>
 
 # ANALYZE, SHARE, AND REPEAT. 
 
@@ -16,7 +16,7 @@ Do not send a graph in a PDF or Powerpoint again.
 
 If you installed Zeppelin and created ZeppelinHub account, you can generate a token for your Zeppelin instance. Then you can seamlessly connect your Zeppelin and ZeppelinHub. For more specific information about connection, please refer to **[Zeppelin integration with ZeppelinHub](./zeppelin_integration.html)** section.
 
-####  <img src="./images/share.png" height="8%" width="8%"> Share your notebook with anyone, anywhere. Instantly communicate and show your change on the fly.
+####  <img src="./images/share.png" height="8%" width="8%"> Share your notebook with anyone, anywhere. 
 Apache Zeppelin provide a beautiful visualization for your data analysis results. Using ZeppelinHub, you can privately and publically publish the results to anyone you want to share. As you make changes in Zeppelin, it will be reflected to ZeppelinHub immediately.  
 
 #### <img src="./images/collaborate.png" height="8%" width="8%"> Create teams and spaces for sharing private notebooks.
