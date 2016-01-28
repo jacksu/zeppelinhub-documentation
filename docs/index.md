@@ -1,6 +1,6 @@
 
 
-<center><img src="./images/zeppelinhub_logo.png" height="50%" width="50%"></center>
+<center><img src="./images/zeppelinhub-logo.gif" height="50%" width="50%"></center>
 
 # ANALYZE, SHARE, AND REPEAT. 
 
