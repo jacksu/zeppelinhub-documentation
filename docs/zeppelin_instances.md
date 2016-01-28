@@ -13,7 +13,7 @@ After you input a descriptive name for your Zeppelin instance, a Token will be g
 
 You can then see the following figure with your Instance's Token string.
 
-<img class="img-responsive" style="margin:auto;margin-top:10px;margin-bottom:10px;" src="images/add_instance_token_created.png" width="450"/>
+<img src="./add_instance_token_created.png" width="450"/>
 
 You can now use that token to [configure Zeppelin](http://help.zeppelinhub.io/zeppelin_integration.html "Connect Zeppelin to ZeppelinHub").
 

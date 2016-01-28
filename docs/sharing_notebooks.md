@@ -11,7 +11,7 @@ In order to share your notebooks with people, you will have to use spaces.
 
 You can see your spaces and spaces you are part of on the Side Menu.
 
-<img class="img-responsive" src="images/menu_space.png" width="260"/>
+<center><img  src="./menu_space.png" width="260"></center>
 
 A Space allows you to gather both **Notebooks** and **Users**. Making it a perfect place to share your new notebooks with your coworkers.
 
@@ -20,7 +20,7 @@ A Space allows you to gather both **Notebooks** and **Users**. Making it a perfe
 
 You can create a new space by clicking on the **+** button in the Side Menu.
 
-<img class="img-responsive" src="images/add_space.png" width="260"/>
+<img src="./add_space.png" width="260"/>
 
 You then, only have to specify a name to see it being created.
 
@@ -29,7 +29,7 @@ You then, only have to specify a name to see it being created.
 
 There are multiple ways to add a Notebook to a Space.
 
-<img class="img-responsive" src="images/add_notebook-space.png" width="800"/>
+<img src="./add_notebook_space.png" width="800"/>
 
 __Drag and Drop__
 
@@ -42,6 +42,6 @@ You can also click the notebook's share icon.
 <br/>
 ## Inviting Users to your Space
 
-You can manage the members of your space by clicking on the <span><img style="margin:5px" src="images/space_members.png" width="30"/></span> icon.
+You can manage the members of your space by clicking on the <span><img style="margin:5px" src="./space_members.png" width="30"/></span> icon.
 
-<img class="img-responsive" src="images/space_members_modal.png" width="500"/>
+<img  src="./space_members_modal.png" width="500"/>

@@ -11,7 +11,7 @@ Create your account and add your registration code.
  * **Login**: Select your username. It should have no spaces or special characters. Alphanumeric only.
  * **Email**: Input your email address. This will be used to send notifications from ZeppelinHub.
  * **Code**: From the email you received, enter the invitation code.
-<img class="img-responsive" src="images/invitation_code.png" width="900"/>
+<img class="img-responsive" src="./invitation_code.png" width="900"/>
 
 ## Invite others members to try ZeppelinHub
 You can share the `registration code` within your organization to invite people to join and try ZeppelinHub.
