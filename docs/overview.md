@@ -8,6 +8,8 @@ ZeppelinHub enables you to share your Zeppelin notebooks. Once you register and 
 
 For trully using ZeppelinHub service, there are some componets and processes needed to understand. 
 
+## Key Concepts
+
 * **Your ZeppelinHub Account** <br/>
 It is pretty straightforward to join ZeppelinHub. When you create an account, you will be asked for your **Registration Code**. Since it is not a unique code for only one person, you can share this code within your organization and invite people. More detailed informations is in [Register your Invitation Code](./register_invitation_code.html) section.
 
