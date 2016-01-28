@@ -1,6 +1,6 @@
 # Hub Documentation by Readthedocs
 
-This repository is just test for Hub Documentation. 
+This repository is a just test for Hub Documentation. 
 
 
 
