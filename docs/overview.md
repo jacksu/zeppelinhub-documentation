@@ -4,7 +4,7 @@ Welcome to ZeppelinHub!
 
 ZeppelinHub enables you to share your Zeppelin notebooks. Once you register and integrate Zeppelin with ZeppelinHub, you can privately share your notebooks and communicate via the notebooks with your team members. The following illustration shows a basic concept of ZeppelinHub.  
 
-<center><img src="./images/zeppelinhub_concept.png" height="70%" width="70%"></center>
+<center><img src="/images/zeppelinhub_concept.png" height="70%" width="70%"></center>
 
 For trully using ZeppelinHub service, there are some componets and processes needed to understand. 
 
