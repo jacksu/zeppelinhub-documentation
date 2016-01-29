@@ -24,4 +24,4 @@ Apache Zeppelin provide a beautiful visualization for your data analysis results
 ZeppelinHub space is a unit of notebook sharing. You can privately share notebooks only your team having a permission. In ZeppelinHub, you can leave some comments below your notebook for the dynamic team work.
  
 ## Discover the best of Zeppelin Notebooks
-[ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) is a community site for sharing Zeppelin notebooks. Using Viewer,you can explore some dramatic examples of Zeppelin notebooks. You can find more specific information about ZeppelinHub Viewer at [What is ZeppelinHub Viewer](./zeppelinhub_viewer) section.
+[ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) is a community site for sharing Zeppelin notebooks. Using Viewer,you can explore some dramatic examples of Zeppelin notebooks. You can find more specific information about ZeppelinHub Viewer at [What is ZeppelinHub Viewer](./what_is_zeppelinhub_viewer) section.
