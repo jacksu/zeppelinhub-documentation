@@ -9,9 +9,7 @@ This section explains how you could seamlessly connect your Zeppelin instance to
 <br/>
 ### Download integration library
 
-First of all, you need to download the integration library from the following link:
-
-http://zeppel.in.s3.amazonaws.com/zeppelinhub-integration-0.6.0-incubating-SNAPSHOT.jar
+First of all, you need to download the integration library from <a href="https://s3-ap-northeast-1.amazonaws.com/zeppel.in/integration-modules/zeppelinhub-integration-v0.3.2-all.jar">here</a>.
 
 Put the integration library into `lib` folder under your Zeppelin installation directory.
 If you don't have `lib` folder, create one.
