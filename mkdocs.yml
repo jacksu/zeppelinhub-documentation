@@ -9,9 +9,9 @@ pages:
 - Home: index.md
 - Overview: overview.md
 - User Guide:
-    - Register Invitation Code: register_invitation_code.md
-    - Ingrate Your Zeppelin with ZeppelinHub: zeppelin_integration.md
-    - Manage your Zeppelin Instance: zeppelin_instances.md
+    - Managing your ZeppelinHub Account: register_invitation_code.md
+    - Integrate Zeppelin with ZeppelinHub: zeppelin_integration.md
+    - Managing your Zeppelin Instance: zeppelin_instances.md
     - Collaborate with Your Team: sharing_notebooks.md
 - What is ZeppelinHub Viewer: zeppelinhub_viewer.md
 - Support: support.md
