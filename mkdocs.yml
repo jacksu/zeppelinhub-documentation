@@ -1,4 +1,21 @@
 site_name: ZeppelinHub
+site_url: http://zeppelinhub-docs.readthedocs.org/en/latest/
+site_description: ZeppelinHub Documentation with Mkdocs + Readthedocs 
+site_author: Ahyoung Ryu from NFLabs
+
+repo_url: https://github.com/AhyoungRyu/hub-documentation
+
+pages:
+- Home: index.md
+- Overview: overview.md
+- User Guide:
+    - Register Invitation Code: register_invitation_code.md
+    - Ingrate Your Zeppelin with ZeppelinHub: zeppelin_integration.md
+    - Manage your Zeppelin Instance: zeppelin_instances.md
+    - Collaborate with Your Team: sharing_notebooks.md
+- What is ZeppelinHub Viewer: zeppelinhub_viewer.md
+- Support: support.md
+
 theme: readthedocs
 
 #extra_css: css/extra.css
