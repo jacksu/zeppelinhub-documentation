@@ -1,0 +1,214 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "ANALYZE, SHARE, AND REPEAT.\n\n\nShare your graphs and reports from \nApache Zeppelin\n with anyone.\nDo not send a graph in a PDF or Powerpoint again.\n\n\nWhat is ZeppelinHub ?\n\n\n\n\nThree advantages and Benefits of ZeppelinHub\n\n\n Connect Apache Zeppelin and dynamically replicate your notebooks.\n\n\nIf you installed Zeppelin and created ZeppelinHub account, you can generate a token for your Zeppelin instance. Then you can seamlessly connect your Zeppelin and ZeppelinHub.\n\n\n Share your notebook with anyone, anywhere.\n\n\nApache Zeppelin provide a beautiful visualization for your data analysis results. Using ZeppelinHub, you can privately and publically publish the results to anyone you want to share. As you make changes in Zeppelin, it will be reflected to ZeppelinHub immediately.\n\n\n Create teams and spaces for sharing private notebooks.\n\n\nZeppelinHub space is a unit of notebook sharing. You can privately share notebooks only your team having a permission. In ZeppelinHub, you can leave some comments below your notebook for the dynamic team work.\n\n\nDiscover the best of Zeppelin Notebooks\n\n\nZeppelinHub Viewer\n is a community site for sharing Zeppelin notebooks. Using Viewer,you can explore some dramatic examples of Zeppelin notebooks. You can find more specific information about ZeppelinHub Viewer at \nWhat is ZeppelinHub Viewer\n section.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#analyze-share-and-repeat", 
+            "text": "Share your graphs and reports from  Apache Zeppelin  with anyone.\nDo not send a graph in a PDF or Powerpoint again.", 
+            "title": "ANALYZE, SHARE, AND REPEAT."
+        }, 
+        {
+            "location": "/#what-is-zeppelinhub", 
+            "text": "", 
+            "title": "What is ZeppelinHub ?"
+        }, 
+        {
+            "location": "/#three-advantages-and-benefits-of-zeppelinhub", 
+            "text": "", 
+            "title": "Three advantages and Benefits of ZeppelinHub"
+        }, 
+        {
+            "location": "/#connect-apache-zeppelin-and-dynamically-replicate-your-notebooks", 
+            "text": "If you installed Zeppelin and created ZeppelinHub account, you can generate a token for your Zeppelin instance. Then you can seamlessly connect your Zeppelin and ZeppelinHub.", 
+            "title": " Connect Apache Zeppelin and dynamically replicate your notebooks."
+        }, 
+        {
+            "location": "/#share-your-notebook-with-anyone-anywhere", 
+            "text": "Apache Zeppelin provide a beautiful visualization for your data analysis results. Using ZeppelinHub, you can privately and publically publish the results to anyone you want to share. As you make changes in Zeppelin, it will be reflected to ZeppelinHub immediately.", 
+            "title": " Share your notebook with anyone, anywhere."
+        }, 
+        {
+            "location": "/#create-teams-and-spaces-for-sharing-private-notebooks", 
+            "text": "ZeppelinHub space is a unit of notebook sharing. You can privately share notebooks only your team having a permission. In ZeppelinHub, you can leave some comments below your notebook for the dynamic team work.", 
+            "title": " Create teams and spaces for sharing private notebooks."
+        }, 
+        {
+            "location": "/#discover-the-best-of-zeppelin-notebooks", 
+            "text": "ZeppelinHub Viewer  is a community site for sharing Zeppelin notebooks. Using Viewer,you can explore some dramatic examples of Zeppelin notebooks. You can find more specific information about ZeppelinHub Viewer at  What is ZeppelinHub Viewer  section.", 
+            "title": "Discover the best of Zeppelin Notebooks"
+        }, 
+        {
+            "location": "/overview/", 
+            "text": "Overview\n\n\nWelcome to ZeppelinHub! \n\n\nZeppelinHub enables you to share your Zeppelin notebooks. Once you register and integrate Zeppelin with ZeppelinHub, you can privately share your notebooks and communicate via the notebooks with your team members. The following illustration shows a basic concept of ZeppelinHub.\n\n\n\n\nKey Concepts\n\n\nFor trully using ZeppelinHub service, there are some componets and processes needed to understand. \n\n\nYour ZeppelinHub Account\n\n\nIt is pretty straightforward to join ZeppelinHub. When you create an account, you will be asked for your \nRegistration Code\n. Since it is not a unique code for only one person, you can share this code within your organization and invite people. More detailed information is in \nRegister your Invitation Code\n section.\n\n\nZeppelin Instance \n\n\nYou might wonder how you can install and configure Zeppelin. If so, please read \nZeppelin Installation\n first. As you can see in the above illustrartion, you can manage several \nZeppelin instances\n in your ZeppelinHub account. ( \nInstance\n is not a strange word. It is just a unit of Zeppelin. ) Once you add a new instance in Hub, it will generate a unique \ntoken\n only for that Zeppelin instance. This token is used to integrate your Zeppelin instance with ZeppelinHub. More specific explanation is in \nZeppelin integration with ZeppelinHub\n.\n\n\nSpace \n\n\nZeppelinHub space is a unit of sharing notebooks. Likewise adding Zeppelin instances, you can also create and have several spaces at once. Space allows you to gather your notebooks and notebooks shared with you. It's a convenient way to organize notebooks. Please visit \nHow you can share notebooks?\n section.\n\n\nWho can access \n\n\nWhen you create a space, you can add members so that they can have an access permission. Also, you can freely add more people in the future. For the specific informtaion about the permission, please read \nInviting users to your Space\n section.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/overview/#overview", 
+            "text": "Welcome to ZeppelinHub!   ZeppelinHub enables you to share your Zeppelin notebooks. Once you register and integrate Zeppelin with ZeppelinHub, you can privately share your notebooks and communicate via the notebooks with your team members. The following illustration shows a basic concept of ZeppelinHub.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/overview/#key-concepts", 
+            "text": "For trully using ZeppelinHub service, there are some componets and processes needed to understand.", 
+            "title": "Key Concepts"
+        }, 
+        {
+            "location": "/overview/#your-zeppelinhub-account", 
+            "text": "It is pretty straightforward to join ZeppelinHub. When you create an account, you will be asked for your  Registration Code . Since it is not a unique code for only one person, you can share this code within your organization and invite people. More detailed information is in  Register your Invitation Code  section.", 
+            "title": "Your ZeppelinHub Account"
+        }, 
+        {
+            "location": "/overview/#zeppelin-instance", 
+            "text": "You might wonder how you can install and configure Zeppelin. If so, please read  Zeppelin Installation  first. As you can see in the above illustrartion, you can manage several  Zeppelin instances  in your ZeppelinHub account. (  Instance  is not a strange word. It is just a unit of Zeppelin. ) Once you add a new instance in Hub, it will generate a unique  token  only for that Zeppelin instance. This token is used to integrate your Zeppelin instance with ZeppelinHub. More specific explanation is in  Zeppelin integration with ZeppelinHub .", 
+            "title": "Zeppelin Instance "
+        }, 
+        {
+            "location": "/overview/#space", 
+            "text": "ZeppelinHub space is a unit of sharing notebooks. Likewise adding Zeppelin instances, you can also create and have several spaces at once. Space allows you to gather your notebooks and notebooks shared with you. It's a convenient way to organize notebooks. Please visit  How you can share notebooks?  section.", 
+            "title": "Space "
+        }, 
+        {
+            "location": "/overview/#who-can-access", 
+            "text": "When you create a space, you can add members so that they can have an access permission. Also, you can freely add more people in the future. For the specific informtaion about the permission, please read  Inviting users to your Space  section.", 
+            "title": "Who can access "
+        }, 
+        {
+            "location": "/register_invitation_code/", 
+            "text": "Managing your Zeppelinhub Account\n\n\nCongratulations! You have been invited to join ZeppelinHub\u2019s private beta program. This page will help set up you and your organization to try ZeppelinHub.\n\n\nCreate your ZeppelinHub Account\n\n\nCreate your account and add your registration code.\n\n\n\n\nLogin\n: Select your username. It should have no spaces or special characters. Alphanumeric only.\n\n\nEmail\n: Input your email address. This will be used to send notifications from ZeppelinHub.\n\n\nCode\n: From the email you received, enter the invitation code.\n\n\n\n\n\nManage your Account\n\n\nInvite others members to try ZeppelinHub\n\n\nYou can share the \nregistration code\n within your organization to invite people to join and try ZeppelinHub.\n\n\nLet's get Started !\n\n\nCongratulations! You are done with the registration process. You can now Login and start enjoying ZeppelinHub!", 
+            "title": "Managing your ZeppelinHub Account"
+        }, 
+        {
+            "location": "/register_invitation_code/#managing-your-zeppelinhub-account", 
+            "text": "Congratulations! You have been invited to join ZeppelinHub\u2019s private beta program. This page will help set up you and your organization to try ZeppelinHub.", 
+            "title": "Managing your Zeppelinhub Account"
+        }, 
+        {
+            "location": "/register_invitation_code/#create-your-zeppelinhub-account", 
+            "text": "Create your account and add your registration code.   Login : Select your username. It should have no spaces or special characters. Alphanumeric only.  Email : Input your email address. This will be used to send notifications from ZeppelinHub.  Code : From the email you received, enter the invitation code.", 
+            "title": "Create your ZeppelinHub Account"
+        }, 
+        {
+            "location": "/register_invitation_code/#manage-your-account", 
+            "text": "", 
+            "title": "Manage your Account"
+        }, 
+        {
+            "location": "/register_invitation_code/#invite-others-members-to-try-zeppelinhub", 
+            "text": "You can share the  registration code  within your organization to invite people to join and try ZeppelinHub.", 
+            "title": "Invite others members to try ZeppelinHub"
+        }, 
+        {
+            "location": "/register_invitation_code/#lets-get-started", 
+            "text": "Congratulations! You are done with the registration process. You can now Login and start enjoying ZeppelinHub!", 
+            "title": "Let's get Started !"
+        }, 
+        {
+            "location": "/zeppelin_integration/", 
+            "text": "Zeppelin integration with ZeppelinHub\n\n\nThis section explains how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account.\n\n\n\n\nDownload integration library\n\n\nFirst of all, you need to download the integration library from \nhere\n.\n\n\nPut the integration library into \nlib\n folder under your Zeppelin installation directory.\nIf you don't have \nlib\n folder, create one.\n\n\n\n\nSign up and Token creation\n\n\nSecondly you need to register for a ZeppelinHub account to obtain a Token. Once registered and logged in, you can \nadd an Instance\n, and use that generated Token (long string) to connect your Zeppelin instance to your ZeppelinHub account in the following steps.\n\n\n\n\nZeppelin environment configuration\n\n\nNow we can connect Zeppelin to your ZeppelinHub account by inserting the following environment variables into your \nconf/zeppelin-env.sh\n file in Zeppelin installation directory. If the file doesn't exist, create it from \nconf/zeppelin-env.sh.template\n.\n\n\nexport ZEPPELIN_NOTEBOOK_STORAGE=\norg.apache.zeppelin.notebook.repo.VFSNotebookRepo, com.nflabs.zeppelinhub.notebook.repo.ZeppelinHubRepo\n\nexport ZEPPELINHUB_API_ADDRESS=\nhttps://www.zeppelinhub.com\n\nexport ZEPPELINHUB_API_TOKEN=\nYOUR_TOKEN_STRING\n\n\n\n\n\nNow you can \nstart/restart\n Zeppelin!", 
+            "title": "Integrate Zeppelin with ZeppelinHub"
+        }, 
+        {
+            "location": "/zeppelin_integration/#zeppelin-integration-with-zeppelinhub", 
+            "text": "This section explains how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account.", 
+            "title": "Zeppelin integration with ZeppelinHub"
+        }, 
+        {
+            "location": "/zeppelin_integration/#download-integration-library", 
+            "text": "First of all, you need to download the integration library from  here .  Put the integration library into  lib  folder under your Zeppelin installation directory.\nIf you don't have  lib  folder, create one.", 
+            "title": "Download integration library"
+        }, 
+        {
+            "location": "/zeppelin_integration/#sign-up-and-token-creation", 
+            "text": "Secondly you need to register for a ZeppelinHub account to obtain a Token. Once registered and logged in, you can  add an Instance , and use that generated Token (long string) to connect your Zeppelin instance to your ZeppelinHub account in the following steps.", 
+            "title": "Sign up and Token creation"
+        }, 
+        {
+            "location": "/zeppelin_integration/#zeppelin-environment-configuration", 
+            "text": "Now we can connect Zeppelin to your ZeppelinHub account by inserting the following environment variables into your  conf/zeppelin-env.sh  file in Zeppelin installation directory. If the file doesn't exist, create it from  conf/zeppelin-env.sh.template .  export ZEPPELIN_NOTEBOOK_STORAGE= org.apache.zeppelin.notebook.repo.VFSNotebookRepo, com.nflabs.zeppelinhub.notebook.repo.ZeppelinHubRepo \nexport ZEPPELINHUB_API_ADDRESS= https://www.zeppelinhub.com \nexport ZEPPELINHUB_API_TOKEN= YOUR_TOKEN_STRING   Now you can  start/restart  Zeppelin!", 
+            "title": "Zeppelin environment configuration"
+        }, 
+        {
+            "location": "/zeppelin_instances/", 
+            "text": "Zeppelin instances\n\n\nConnecting your Zeppelin Instances to ZeppelinHub is the first step to start sharing your notebooks.\n\n\n\n\nAdd a Zeppelin instance\n\n\nYou can connect your Zeppelin instance to your ZeppelinHub account by clicking on \nAdd New Instance\n button either on your left-side menu or your \nSettings\n page.\n\n\nAfter you input a descriptive name for your Zeppelin instance, a Token will be generated.\n\n\nYou can then see the following figure with your Instance's Token string.\n\n\n\n\nYou can now use that token to \nconfigure Zeppelin\n.\n\n\n\n\nManaging your Instances/Token\n\n\nYou can Manage your Instances/Tokens on your \nSettings\n page.\n\n\nBe carefull\n when removing an Instance, as it imply that you no longer want to syncronize that Zeppelin instance with Zeppelinhub, and will also remove all notebooks related to this Instance from Zeppelinhub.", 
+            "title": "Managing your Zeppelin Instance"
+        }, 
+        {
+            "location": "/zeppelin_instances/#zeppelin-instances", 
+            "text": "Connecting your Zeppelin Instances to ZeppelinHub is the first step to start sharing your notebooks.", 
+            "title": "Zeppelin instances"
+        }, 
+        {
+            "location": "/zeppelin_instances/#add-a-zeppelin-instance", 
+            "text": "You can connect your Zeppelin instance to your ZeppelinHub account by clicking on  Add New Instance  button either on your left-side menu or your  Settings  page.  After you input a descriptive name for your Zeppelin instance, a Token will be generated.  You can then see the following figure with your Instance's Token string.   You can now use that token to  configure Zeppelin .", 
+            "title": "Add a Zeppelin instance"
+        }, 
+        {
+            "location": "/zeppelin_instances/#managing-your-instancestoken", 
+            "text": "You can Manage your Instances/Tokens on your  Settings  page.  Be carefull  when removing an Instance, as it imply that you no longer want to syncronize that Zeppelin instance with Zeppelinhub, and will also remove all notebooks related to this Instance from Zeppelinhub.", 
+            "title": "Managing your Instances/Token"
+        }, 
+        {
+            "location": "/sharing_notebooks/", 
+            "text": "Sharing your notebooks\n\n\nIn order to share your notebooks with people, you will have to use spaces.\n\n\n\n\nSpaces\n\n\nYou can see your spaces and spaces you are part of on the Side Menu.\n\n\n\n\nA Space allows you to gather both \nNotebooks\n and \nUsers\n. Making it a perfect place to share your new notebooks with your coworkers.\n\n\n\n\nCreating a Space\n\n\nYou can create a new space by clicking on the \n+\n button in the Side Menu.\n\n\n\n\nYou then, only have to specify a name to see it being created.\n\n\n\n\nAdding Notebooks to a Space\n\n\nThere are multiple ways to add a Notebook to a Space.\n\n\n\n\nDrag and Drop\n\n\nYou can drag and drop a notebook into a space or instance.\n\n\nAction Button\n\n\nYou can also click the notebook's share icon.\n\n\n\n\nInviting Users to your Space\n\n\nYou can manage the members of your space by clicking on the \n icon.", 
+            "title": "Collaborate with Your Team"
+        }, 
+        {
+            "location": "/sharing_notebooks/#sharing-your-notebooks", 
+            "text": "In order to share your notebooks with people, you will have to use spaces.", 
+            "title": "Sharing your notebooks"
+        }, 
+        {
+            "location": "/sharing_notebooks/#spaces", 
+            "text": "You can see your spaces and spaces you are part of on the Side Menu.   A Space allows you to gather both  Notebooks  and  Users . Making it a perfect place to share your new notebooks with your coworkers.", 
+            "title": "Spaces"
+        }, 
+        {
+            "location": "/sharing_notebooks/#creating-a-space", 
+            "text": "You can create a new space by clicking on the  +  button in the Side Menu.   You then, only have to specify a name to see it being created.", 
+            "title": "Creating a Space"
+        }, 
+        {
+            "location": "/sharing_notebooks/#adding-notebooks-to-a-space", 
+            "text": "There are multiple ways to add a Notebook to a Space.   Drag and Drop  You can drag and drop a notebook into a space or instance.  Action Button  You can also click the notebook's share icon.", 
+            "title": "Adding Notebooks to a Space"
+        }, 
+        {
+            "location": "/sharing_notebooks/#inviting-users-to-your-space", 
+            "text": "You can manage the members of your space by clicking on the   icon.", 
+            "title": "Inviting Users to your Space"
+        }, 
+        {
+            "location": "/zeppelinhub_viewer/", 
+            "text": "ZeppelinHub Viewer\n\n\nZeppelinHub Viewer\n is a community site for sharing Zeppelin notebooks. As long as the notebook is publicly located, you can directly look around it without browsing Zeppelin Homescreen. Using Viewer, you can also explore some dramatic examples.\n\n\n\n\nHow can you use Viewer ?\n\n\nYou can easily find a text input box in \nZeppelinHub\n and \nZeppelinHub Viewer\n main web page. If you have any public notebook for your own ( or any other public notebook ), copy the \nnote.json\n location and paste it to the input box and just click \nVIEW\n button.\n\n\n\n\nFor example, Zeppelin provides a \nZeppelin Tutorial\n in \nZeppelin github repository\n. \nHere is a link.\n\n\nhttps://github.com/apache/incubator-zeppelin/blob/master/notebook/2A94M5J1Z/note.json\n\n\n\n\nOr just explore\n\n\nWe provide some collections in the ZeppelinHub Viewer you may be attracted. Just explore interesting example notebooks.", 
+            "title": "What is ZeppelinHub Viewer"
+        }, 
+        {
+            "location": "/zeppelinhub_viewer/#zeppelinhub-viewer", 
+            "text": "ZeppelinHub Viewer  is a community site for sharing Zeppelin notebooks. As long as the notebook is publicly located, you can directly look around it without browsing Zeppelin Homescreen. Using Viewer, you can also explore some dramatic examples.", 
+            "title": "ZeppelinHub Viewer"
+        }, 
+        {
+            "location": "/zeppelinhub_viewer/#how-can-you-use-viewer", 
+            "text": "You can easily find a text input box in  ZeppelinHub  and  ZeppelinHub Viewer  main web page. If you have any public notebook for your own ( or any other public notebook ), copy the  note.json  location and paste it to the input box and just click  VIEW  button.   For example, Zeppelin provides a  Zeppelin Tutorial  in  Zeppelin github repository . \nHere is a link.  https://github.com/apache/incubator-zeppelin/blob/master/notebook/2A94M5J1Z/note.json", 
+            "title": "How can you use Viewer ?"
+        }, 
+        {
+            "location": "/zeppelinhub_viewer/#or-just-explore", 
+            "text": "We provide some collections in the ZeppelinHub Viewer you may be attracted. Just explore interesting example notebooks.", 
+            "title": "Or just explore"
+        }, 
+        {
+            "location": "/support/", 
+            "text": "Sometimes, you just need a little help\n\n\nIf you have any other questions or get in trouble with unexpected problems, please contact to us at \nsupport@zeppelinhub.com", 
+            "title": "Support"
+        }, 
+        {
+            "location": "/support/#sometimes-you-just-need-a-little-help", 
+            "text": "If you have any other questions or get in trouble with unexpected problems, please contact to us at  support@zeppelinhub.com", 
+            "title": "Sometimes, you just need a little help"
+        }
+    ]
+}
