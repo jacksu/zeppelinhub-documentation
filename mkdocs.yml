@@ -9,7 +9,7 @@ pages:
 - Home: index.md
 - Overview: overview.md
 - User Guide:
-    - Managing your ZeppelinHub Account: register_invitation_code.md
+    - Managing your ZeppelinHub Account: zeppelinhub_account.md
     - Integrate Zeppelin with ZeppelinHub: zeppelin_integration.md
     - Managing your Zeppelin Instance: zeppelin_instances.md
     - Collaborate with Your Team: sharing_notebooks.md
