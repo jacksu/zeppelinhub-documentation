@@ -76,34 +76,24 @@
             "title": "Who can access "
         }, 
         {
-            "location": "/register_invitation_code/", 
-            "text": "Managing your Zeppelinhub Account\n\n\nCongratulations! You have been invited to join ZeppelinHub\u2019s private beta program. This page will help set up you and your organization to try ZeppelinHub.\n\n\nCreate your ZeppelinHub Account\n\n\nCreate your account and add your registration code.\n\n\n\n\nLogin\n: Select your username. It should have no spaces or special characters. Alphanumeric only.\n\n\nEmail\n: Input your email address. This will be used to send notifications from ZeppelinHub.\n\n\nCode\n: From the email you received, enter the invitation code.\n\n\n\n\n\nManage your Account\n\n\nInvite others members to try ZeppelinHub\n\n\nYou can share the \nregistration code\n within your organization to invite people to join and try ZeppelinHub.\n\n\nLet's get Started !\n\n\nCongratulations! You are done with the registration process. You can now Login and start enjoying ZeppelinHub!", 
+            "location": "/zeppelinhub_account/", 
+            "text": "Managing your Zeppelinhub Account\n\n\nCongratulations your first step to explore ZeppelinHub!\nIn this section, we will help you to get your foot in the door. \n\n\nCreate your ZeppelinHub Account\n\n\nSince ZeppelinHub is \nprivate\n Zeppelin Notebook sharing tool, you need your own account. \n\n\n\n\nAs you can see in the above screenshot image, there is nothing special to write down your basic information except \nRegistration Code\n. We provide a unique \nRegistration Code\n for a company. This code can be shared within your organization. As a result, you can share and communicate only with your people. \n\n\nAll the process for the registration is done. Welcome to ZeppelinHub!\n\n\n\n\nManage your Profile\n\n\nYou can also update your account information after registration. Click a \nGear Button\n on top of the page. Then  you can modify your private information at the \nProfile\n tab. \n\n\n\n\nIf you want to upload your profile image, click the image. Then \nGravatar\n page will be shown up.", 
             "title": "Managing your ZeppelinHub Account"
         }, 
         {
-            "location": "/register_invitation_code/#managing-your-zeppelinhub-account", 
-            "text": "Congratulations! You have been invited to join ZeppelinHub\u2019s private beta program. This page will help set up you and your organization to try ZeppelinHub.", 
+            "location": "/zeppelinhub_account/#managing-your-zeppelinhub-account", 
+            "text": "Congratulations your first step to explore ZeppelinHub!\nIn this section, we will help you to get your foot in the door.", 
             "title": "Managing your Zeppelinhub Account"
         }, 
         {
-            "location": "/register_invitation_code/#create-your-zeppelinhub-account", 
-            "text": "Create your account and add your registration code.   Login : Select your username. It should have no spaces or special characters. Alphanumeric only.  Email : Input your email address. This will be used to send notifications from ZeppelinHub.  Code : From the email you received, enter the invitation code.", 
+            "location": "/zeppelinhub_account/#create-your-zeppelinhub-account", 
+            "text": "Since ZeppelinHub is  private  Zeppelin Notebook sharing tool, you need your own account.    As you can see in the above screenshot image, there is nothing special to write down your basic information except  Registration Code . We provide a unique  Registration Code  for a company. This code can be shared within your organization. As a result, you can share and communicate only with your people.   All the process for the registration is done. Welcome to ZeppelinHub!", 
             "title": "Create your ZeppelinHub Account"
         }, 
         {
-            "location": "/register_invitation_code/#manage-your-account", 
-            "text": "", 
-            "title": "Manage your Account"
-        }, 
-        {
-            "location": "/register_invitation_code/#invite-others-members-to-try-zeppelinhub", 
-            "text": "You can share the  registration code  within your organization to invite people to join and try ZeppelinHub.", 
-            "title": "Invite others members to try ZeppelinHub"
-        }, 
-        {
-            "location": "/register_invitation_code/#lets-get-started", 
-            "text": "Congratulations! You are done with the registration process. You can now Login and start enjoying ZeppelinHub!", 
-            "title": "Let's get Started !"
+            "location": "/zeppelinhub_account/#manage-your-profile", 
+            "text": "You can also update your account information after registration. Click a  Gear Button  on top of the page. Then  you can modify your private information at the  Profile  tab.    If you want to upload your profile image, click the image. Then  Gravatar  page will be shown up.", 
+            "title": "Manage your Profile"
         }, 
         {
             "location": "/zeppelin_integration/", 
