@@ -9,7 +9,7 @@ First of all, you need a library for integration. Please click this [download li
 Then copy your library into `lib` directory under your ZEPPELIN_HOME ( Zeppelin installation directory ). If you don't have `lib` folder, just create a new one.
 
 ## Add a new Zeppelin Insatnce and Generate a Token
-You need to register for a ZeppelinHub account to obtain a Token. If you don't have ZeppelinHub account, please read [Managing your ZeppelinHub Account](zeppelinhub_account.md) and sign up first. After login, you can add **a new Zeppelin Instance**.
+You need to register for a ZeppelinHub account to obtain a Token. If you don't have ZeppelinHub account yet, please read [Managing your ZeppelinHub Account](zeppelinhub_account.md) and sign up first. After login, you can add **a new Zeppelin Instance**.
 
 <img src="../img/add_instance.png" width="30%" height="30%" style="box-shadow: 7px 7px 15px #999999;"/>
 
