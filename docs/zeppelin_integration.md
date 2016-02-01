@@ -1,31 +1,60 @@
----
-  title: Zeppelin integration with ZeppelinHub
----
-
 # Zeppelin integration with ZeppelinHub
 
-This section explains how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account.
+In this section, we will guide you how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account. 
 
-<br/>
-### Download integration library
+## Download integration library
 
-First of all, you need to download the integration library from <a href="https://s3-ap-northeast-1.amazonaws.com/zeppel.in/integration-modules/zeppelinhub-integration-v0.3.2-all.jar">here</a>.
+First of all, you need a library for integration. Please click this [download link](https://s3-ap-northeast-1.amazonaws.com/zeppel.in/zeppelinhub-integration-v0.3.2-all.jar).
 
-Put the integration library into `lib` folder under your Zeppelin installation directory.
-If you don't have `lib` folder, create one.
+Then copy your library into `lib` directory under your ZEPPELIN_HOME ( Zeppelin installation directory ). If you don't have `lib` folder, just create a new one.
 
-<br/>
-### Sign up and Token creation
-Secondly you need to register for a ZeppelinHub account to obtain a Token. Once registered and logged in, you can [add an Instance](zeppelin_instances.html "Tokens"), and use that generated Token (long string) to connect your Zeppelin instance to your ZeppelinHub account in the following steps.
+## Add a new Zeppelin Insatnce and Generate a Token
+You need to register for a ZeppelinHub account to obtain a Token. If you don't have ZeppelinHub account, please read [Managing your ZeppelinHub Account](zeppelinhub_account.md) and sign up first. After login, you can add **a new Zeppelin Instance**.
 
-<br/>
-### Zeppelin environment configuration
+<img src="../img/add_instance.png" width="30%" height="30%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-Now we can connect Zeppelin to your ZeppelinHub account by inserting the following environment variables into your `conf/zeppelin-env.sh` file in Zeppelin installation directory. If the file doesn't exist, create it from `conf/zeppelin-env.sh.template`.
+Click the above plus button and type a name for your new instance.
+
+<img src="../img/type_instance_name.png" width="50%" height="50%" style="box-shadow: 7px 7px 15px #999999;"/>
+
+Then, ZeppelinHub will create **a Unique Token** for you.
+
+<img src="../img/instance_token.png" width="50%" height="50%" style="box-shadow: 7px 7px 15px #999999;"/>
+
+After that, you can see your instance that you added.
+
+<img src="../img/after_add_instance.png" width="30%" height="30%" style="box-shadow: 7px 7px 15px #999999;"/>
+
+You may want to edit the instance name or delete it from the list. If so, go to **Setting** page ( click gear button at the top ) and check **Manage Instance** tab. For the further details, refer to [Managing your Zeppelin Instance](zeppelin_instances.md) section in ZeppelinHub documenation.
+
+<img src="../img/manage_instance.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
+
+As you can see the above screenshot image, you may also add a new instance using **Orange Circle Button**.
+
+## Setting Zeppelin environment variables
+
+At last, you can connect Zeppelin to your ZeppelinHub account by inserting the following environment variables into your `ZEPPELIN_HOME/conf/zeppelin-env.sh` file. If you don't have this file, create it from `ZEPPELIN_HOME/conf/zeppelin-env.sh.template`. 
+
+```
+cd < ZEPPELIN_HOME >/conf/
+
+cp zeppelin-env.sh.template zeppelin-env.sh
+```
+
+Then you can activate this configuration file. After that, add below three lines to `zeppelin-env.sh` file. Don't forget to copy your **Token** generated before.
 
 ```
 export ZEPPELIN_NOTEBOOK_STORAGE="org.apache.zeppelin.notebook.repo.VFSNotebookRepo, com.nflabs.zeppelinhub.notebook.repo.ZeppelinHubRepo"
 export ZEPPELINHUB_API_ADDRESS="https://www.zeppelinhub.com"
 export ZEPPELINHUB_API_TOKEN="YOUR_TOKEN_STRING"
 ```
-Now you can `start/restart` Zeppelin!
+
+Now you can `start / restart` Zeppelin. 
+
+```
+cd < ZEPPELIN_HOME >
+
+./bin/zeppelin-daemon.sh start (or restart)
+```
+
+
