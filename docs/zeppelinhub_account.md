@@ -3,7 +3,7 @@ Welcome your first step to explore ZeppelinHub!
 In this section, we will help you to get your foot in the door. 
 
 ## Create your ZeppelinHub Account
-Since ZeppelinHub is **private** Zeppelin Notebook sharing tool, you need your own account. 
+Since ZeppelinHub is **private** Zeppelin notebook sharing tool, you need your own account. 
 
 <img src="../img/create_account.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
