@@ -19,7 +19,7 @@ You might wonder how you can install and configure Zeppelin. If so, please read 
 ZeppelinHub space is a unit of sharing notebooks. Likewise adding Zeppelin instances, you can also create and have several spaces at once. Space allows you to gather your notebooks and notebooks shared with you. It's a convenient way to organize notebooks. Please visit [How you can share notebooks?](sharing_notebooks.md) section.
 
 ### Who can access <br/>
-When you create a space, you can add members so that they can have an access permission. Also, you can freely add more people in the future. For the specific informtaion about the permission, please read [Inviting users to your Space](invite_users.md) section.
+When you create a space, you can add members so that they can have an access permission. Also, you can freely add more people in the future. For the specific informtaion about the permission, please read [Collaborate with your Team](sharing_notebooks.md) section.
 
 
  
