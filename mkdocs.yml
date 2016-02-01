@@ -10,11 +10,11 @@ pages:
 - Overview: overview.md
 - Introduction:
     - Managing your ZeppelinHub Account: zeppelinhub_account.md
-    - Integrate Zeppelin with ZeppelinHub: zeppelin_integration.md
-- Collaborate with Your Team: 
-    - Share your Notebooks: sharing_notebooks.md
-    - Copy your Notebooks: copying_notebooks.md
-    - Communicate with Your Team: communicate.md
+    - Zeppelin & ZeppelinHub Integration: zeppelin_integration.md
+- User Guide: 
+    - Sharing your Notebooks: sharing_notebooks.md
+    - Copying your Notebooks: copying_notebooks.md
+    - Communicating with your Team: communicate.md
 - What is ZeppelinHub Viewer: zeppelinhub_viewer.md
 - Support: support.md
 
