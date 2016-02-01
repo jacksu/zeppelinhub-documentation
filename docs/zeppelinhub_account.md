@@ -1,5 +1,5 @@
 # Managing your Zeppelinhub Account
-Congratulations your first step to explore ZeppelinHub!
+Welcome your first step to explore ZeppelinHub!
 In this section, we will help you to get your foot in the door. 
 
 ## Create your ZeppelinHub Account
