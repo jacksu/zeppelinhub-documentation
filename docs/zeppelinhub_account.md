@@ -1,4 +1,4 @@
-# Managing your Zeppelinhub Account
+# Managing your ZeppelinHub Account
 Welcome your first step to explore ZeppelinHub!
 In this section, we will help you to get your foot in the door. 
 
