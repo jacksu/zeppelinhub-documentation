@@ -13,7 +13,7 @@ You need to register for a ZeppelinHub account to obtain a Token. If you don't h
 
 <img src="../img/add_instance.png" width="30%" height="30%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-Click the above plus button and type a name for your new instance.
+Click the above plus button and type a descriptive name for your new instance.
 
 <img src="../img/type_instance_name.png" width="50%" height="50%" style="box-shadow: 7px 7px 15px #999999;"/>
 
@@ -25,7 +25,7 @@ After that, you can see your instance that you added.
 
 <img src="../img/after_add_instance.png" width="30%" height="30%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-You may want to edit the instance name or delete it from the list. If so, go to **Setting** page ( click gear button at the top ) and check **Manage Instance** tab. For the further details, refer to [Managing your Zeppelin Instance](zeppelin_instances.md) section in ZeppelinHub documenation.
+After adding a new instance, you can manage your instances **Manage Instances** tab in the **Setting** page ( click a gear button at the top ). In this page, you can edit your instances name or delete the instances from the list. But be carefull. When deleting an Zeppelin instance in the list, it implies that you no longer want to syncronize that Zeppelin instance with ZeppelinHub. So it will also remove all notebooks related to this instance from ZeppelinHub.
 
 <img src="../img/manage_instance.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
