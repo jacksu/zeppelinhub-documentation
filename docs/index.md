@@ -5,10 +5,10 @@
 Share your graphs and reports from [Apache Zeppelin](http://zeppelin.incubator.apache.org/) with anyone.
 Do not send a graph in a PDF or Powerpoint again.
 
-## What is ZeppelinHub ?
+# What is ZeppelinHub ?
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/lKoan-fNYc8" frameborder="0" allowfullscreen></iframe></center>
 
-## Three advantages and Benefits of ZeppelinHub
+# Three advantages and Benefits of ZeppelinHub
 
 #### <img src="img/connect.png" height="8%" width="8%"> Connect Apache Zeppelin and dynamically replicate your notebooks.
 
@@ -21,5 +21,5 @@ Apache Zeppelin provide a beautiful visualization for your data analysis results
 
 ZeppelinHub space is a unit of notebook sharing. You can privately share notebooks only your team having a permission. In ZeppelinHub, you can leave some comments below your notebook for the dynamic team work.
  
-## Discover the best of Zeppelin Notebooks
+# Discover the best of Zeppelin Notebooks
 [ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) is a community site for sharing Zeppelin notebooks. Using Viewer,you can explore some dramatic examples of Zeppelin notebooks. You can find more specific information about ZeppelinHub Viewer at [What is ZeppelinHub Viewer](zeppelinhub_viewer.md) section.
