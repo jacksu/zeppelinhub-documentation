@@ -8,7 +8,7 @@
   
   <meta name="author" content="Ahyoung Ryu from NFLabs">
   
-  <title>Integrate Zeppelin with ZeppelinHub - ZeppelinHub</title>
+  <title>Zeppelin & ZeppelinHub Integration - ZeppelinHub</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -24,7 +24,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Integrate Zeppelin with ZeppelinHub";
+    var mkdocs_page_name = "Zeppelin & ZeppelinHub Integration";
     var mkdocs_page_input_path = "zeppelin_integration.md";
     var mkdocs_page_url = "/zeppelin_integration/";
   </script>
@@ -71,7 +71,7 @@
           
             <li>
     <ul class="subnav">
-    <li><span>User Guide</span></li>
+    <li><span>Introduction</span></li>
 
         
             
@@ -83,7 +83,7 @@
         
             
     <li class="toctree-l1 current">
-        <a class="current" href="./">Integrate Zeppelin with ZeppelinHub</a>
+        <a class="current" href="./">Zeppelin & ZeppelinHub Integration</a>
         
             <ul>
             
@@ -91,9 +91,9 @@
                 
                     <li><a class="toctree-l4" href="#download-integration-library">Download integration library</a></li>
                 
-                    <li><a class="toctree-l4" href="#sign-up-and-token-creation">Sign up and Token creation</a></li>
+                    <li><a class="toctree-l4" href="#add-a-new-zeppelin-insatnce-and-generate-a-token">Add a new Zeppelin Insatnce and Generate a Token</a></li>
                 
-                    <li><a class="toctree-l4" href="#zeppelin-environment-configuration">Zeppelin environment configuration</a></li>
+                    <li><a class="toctree-l4" href="#setting-zeppelin-environment-variables">Setting Zeppelin environment variables</a></li>
                 
             
             </ul>
@@ -101,16 +101,31 @@
     </li>
 
         
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>User Guide</span></li>
+
+        
             
     <li class="toctree-l1 ">
-        <a class="" href="../zeppelin_instances/">Managing your Zeppelin Instance</a>
+        <a class="" href="../sharing_notebooks/">Sharing your Notebooks</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../sharing_notebooks/">Collaborate with Your Team</a>
+        <a class="" href="../copying_notebooks/">Copying your Notebooks</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../communicate/">Communicating with your Team</a>
         
     </li>
 
@@ -154,11 +169,11 @@
     
       
         
-          <li>User Guide &raquo;</li>
+          <li>Introduction &raquo;</li>
         
       
     
-    <li>Integrate Zeppelin with ZeppelinHub</li>
+    <li>Zeppelin & ZeppelinHub Integration</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -173,24 +188,40 @@
             <div class="section">
               
                 <h1 id="zeppelin-integration-with-zeppelinhub">Zeppelin integration with ZeppelinHub</h1>
-<p>This section explains how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account.</p>
-<p><br/></p>
-<h3 id="download-integration-library">Download integration library</h3>
-<p>First of all, you need to download the integration library from <a href="https://s3-ap-northeast-1.amazonaws.com/zeppel.in/integration-modules/zeppelinhub-integration-v0.3.2-all.jar">here</a>.</p>
-<p>Put the integration library into <code>lib</code> folder under your Zeppelin installation directory.
-If you don't have <code>lib</code> folder, create one.</p>
-<p><br/></p>
-<h3 id="sign-up-and-token-creation">Sign up and Token creation</h3>
-<p>Secondly you need to register for a ZeppelinHub account to obtain a Token. Once registered and logged in, you can <a href="../zeppelin_instances.html" title="Tokens">add an Instance</a>, and use that generated Token (long string) to connect your Zeppelin instance to your ZeppelinHub account in the following steps.</p>
-<p><br/></p>
-<h3 id="zeppelin-environment-configuration">Zeppelin environment configuration</h3>
-<p>Now we can connect Zeppelin to your ZeppelinHub account by inserting the following environment variables into your <code>conf/zeppelin-env.sh</code> file in Zeppelin installation directory. If the file doesn't exist, create it from <code>conf/zeppelin-env.sh.template</code>.</p>
+<p>In this section, we will guide you how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account. </p>
+<h2 id="download-integration-library">Download integration library</h2>
+<p>First of all, you need a library for integration. Please click this <a href="https://s3-ap-northeast-1.amazonaws.com/zeppel.in/zeppelinhub-integration-v0.3.2-all.jar">download link</a>.</p>
+<p>Then copy your library into <code>lib</code> directory under your ZEPPELIN_HOME ( Zeppelin installation directory ). If you don't have <code>lib</code> folder, just create a new one.</p>
+<h2 id="add-a-new-zeppelin-insatnce-and-generate-a-token">Add a new Zeppelin Insatnce and Generate a Token</h2>
+<p>You need to register for a ZeppelinHub account to obtain a Token. If you don't have ZeppelinHub account yet, please read <a href="../zeppelinhub_account/">Managing your ZeppelinHub Account</a> and sign up first. After login, you can add <strong>a new Zeppelin Instance</strong>.</p>
+<p><img src="../img/add_instance.png" width="30%" height="30%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p>Click the above plus button and type a descriptive name for your new instance.</p>
+<p><img src="../img/type_instance_name.png" width="50%" height="50%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p>Then, ZeppelinHub will create <strong>a Unique Token</strong> for you.</p>
+<p><img src="../img/instance_token.png" width="50%" height="50%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p>After that, you can see your instance that you added.</p>
+<p><img src="../img/after_add_instance.png" width="30%" height="30%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p>After adding a new instance, you can manage your instances <strong>Manage Instances</strong> tab in the <strong>Setting</strong> page ( click a gear button at the top ). In this page, you can edit your instances name or delete the instances from the list. But be carefull. When deleting an Zeppelin instance in the list, it implies that you no longer want to syncronize that Zeppelin instance with ZeppelinHub. So it will also remove all notebooks related to this instance from ZeppelinHub.</p>
+<p><img src="../img/manage_instance.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p>As you can see the above screenshot image, you may also add a new instance using <strong>Orange Circle Button</strong>.</p>
+<h2 id="setting-zeppelin-environment-variables">Setting Zeppelin environment variables</h2>
+<p>At last, you can connect Zeppelin to your ZeppelinHub account by inserting the following environment variables into your <code>ZEPPELIN_HOME/conf/zeppelin-env.sh</code> file. If you don't have this file, create it from <code>ZEPPELIN_HOME/conf/zeppelin-env.sh.template</code>. </p>
+<pre><code>cd &lt; ZEPPELIN_HOME &gt;/conf/
+
+cp zeppelin-env.sh.template zeppelin-env.sh
+</code></pre>
+
+<p>Then you can activate this configuration file. After that, add below three lines to <code>zeppelin-env.sh</code> file. Don't forget to copy your <strong>Token</strong> generated before.</p>
 <pre><code>export ZEPPELIN_NOTEBOOK_STORAGE=&quot;org.apache.zeppelin.notebook.repo.VFSNotebookRepo, com.nflabs.zeppelinhub.notebook.repo.ZeppelinHubRepo&quot;
 export ZEPPELINHUB_API_ADDRESS=&quot;https://www.zeppelinhub.com&quot;
 export ZEPPELINHUB_API_TOKEN=&quot;YOUR_TOKEN_STRING&quot;
 </code></pre>
 
-<p>Now you can <code>start/restart</code> Zeppelin!</p>
+<p>Now you can <code>start / restart</code> Zeppelin. </p>
+<pre><code>cd &lt; ZEPPELIN_HOME &gt;
+
+./bin/zeppelin-daemon.sh start (or restart)
+</code></pre>
               
             </div>
           </div>
@@ -198,7 +229,7 @@ export ZEPPELINHUB_API_TOKEN=&quot;YOUR_TOKEN_STRING&quot;
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../zeppelin_instances/" class="btn btn-neutral float-right" title="Managing your Zeppelin Instance">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../sharing_notebooks/" class="btn btn-neutral float-right" title="Sharing your Notebooks">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../zeppelinhub_account/" class="btn btn-neutral" title="Managing your ZeppelinHub Account"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -232,7 +263,7 @@ export ZEPPELINHUB_API_TOKEN=&quot;YOUR_TOKEN_STRING&quot;
         <span><a href="../zeppelinhub_account/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../zeppelin_instances/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../sharing_notebooks/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
