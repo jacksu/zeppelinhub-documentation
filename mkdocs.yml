@@ -8,11 +8,13 @@ repo_url: https://github.com/AhyoungRyu/hub-documentation
 pages:
 - Home: index.md
 - Overview: overview.md
-- User Guide:
+- Introduction:
     - Managing your ZeppelinHub Account: zeppelinhub_account.md
     - Integrate Zeppelin with ZeppelinHub: zeppelin_integration.md
-    - Managing your Zeppelin Instance: zeppelin_instances.md
-    - Collaborate with Your Team: sharing_notebooks.md
+- Collaborate with Your Team: 
+    - Share your Notebooks: sharing_notebooks.md
+    - Copy your Notebooks: copying_notebooks.md
+    - Communicate with Your Team: communicate.md
 - What is ZeppelinHub Viewer: zeppelinhub_viewer.md
 - Support: support.md
 
