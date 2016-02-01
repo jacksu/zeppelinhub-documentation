@@ -31,14 +31,24 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+        
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelin_instances/</loc>
+     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//sharing_notebooks/</loc>
      <lastmod>2016-02-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//sharing_notebooks/</loc>
+     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//copying_notebooks/</loc>
+     <lastmod>2016-02-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//communicate/</loc>
      <lastmod>2016-02-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
