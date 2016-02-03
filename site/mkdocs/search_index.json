@@ -156,6 +156,16 @@
             "title": "Copying the notebooks"
         }, 
         {
+            "location": "/zeppelin_multitenancy/", 
+            "text": "Zeppelin Multitenancy\n\n\nIn organization, it is not feaseble to make all users install and configure Zeppelin.\nZeppelin Multitenancy feature allows you to have a single URL where all users go to get their own, containerized version of Zeppelin, utilasing resources of the shared cluster. Moreover, it will make using Zeppelin with ZeppelinHub easy in multi-user environment.\n\n\n\n\n\n\nNote: \n This is Beta, for now only Spark Standalone is supported. \n\n\n\n\nFor the further informtation about Zeppelin Multitenancy, please visit \nZeppelin Multitenancy\n.", 
+            "title": "Zeppelin Multitenancy"
+        }, 
+        {
+            "location": "/zeppelin_multitenancy/#zeppelin-multitenancy", 
+            "text": "In organization, it is not feaseble to make all users install and configure Zeppelin.\nZeppelin Multitenancy feature allows you to have a single URL where all users go to get their own, containerized version of Zeppelin, utilasing resources of the shared cluster. Moreover, it will make using Zeppelin with ZeppelinHub easy in multi-user environment.    Note:   This is Beta, for now only Spark Standalone is supported.    For the further informtation about Zeppelin Multitenancy, please visit  Zeppelin Multitenancy .", 
+            "title": "Zeppelin Multitenancy"
+        }, 
+        {
             "location": "/zeppelinhub_viewer/", 
             "text": "ZeppelinHub Viewer\n\n\nZeppelinHub Viewer\n is a community site for sharing Zeppelin notebooks. As long as the notebook is publicly located, you can directly look around it without browsing Zeppelin Homescreen. Using Viewer, you can also explore some dramatic examples.\n\n\n\n\nHow can you use Viewer ?\n\n\nYou can easily find a text input box in \nZeppelinHub\n and \nZeppelinHub Viewer\n main web page. If you have any public notebook for your own ( or any other public notebook ), copy the \nnote.json\n location and paste it to the input box and just click \nVIEW\n button.\n\n\n\n\nFor example, Zeppelin provides a \nZeppelin Tutorial\n in \nZeppelin github repository\n. \nHere is a link.\n\n\nhttps://github.com/apache/incubator-zeppelin/blob/master/notebook/2A94M5J1Z/note.json\n\n\n\n\nOr just explore\n\n\nWe provide some collections in the ZeppelinHub Viewer you may be attracted. Just explore interesting example notebooks.", 
             "title": "What is ZeppelinHub Viewer"

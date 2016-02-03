@@ -8,7 +8,7 @@
   
   <meta name="author" content="Ahyoung Ryu from NFLabs">
   
-  <title>Sharing your Notebooks - ZeppelinHub</title>
+  <title>Zeppelin Multitenancy - ZeppelinHub</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -24,9 +24,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Sharing your Notebooks";
-    var mkdocs_page_input_path = "sharing_notebooks.md";
-    var mkdocs_page_url = "/sharing_notebooks/";
+    var mkdocs_page_name = "Zeppelin Multitenancy";
+    var mkdocs_page_input_path = "zeppelin_multitenancy.md";
+    var mkdocs_page_url = "/zeppelin_multitenancy/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -97,23 +97,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Sharing your Notebooks</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#sharing-your-notebooks">Sharing your Notebooks</a></li>
-                
-                    <li><a class="toctree-l4" href="#what-is-space">What is Space?</a></li>
-                
-                    <li><a class="toctree-l4" href="#creating-a-space">Creating a Space</a></li>
-                
-                    <li><a class="toctree-l4" href="#adding-notebooks-to-the-space">Adding Notebooks to the Space</a></li>
-                
-                    <li><a class="toctree-l4" href="#inviting-your-team-members-to-the-space">Inviting your team members to the Space</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../sharing_notebooks/">Sharing your Notebooks</a>
         
     </li>
 
@@ -126,8 +111,15 @@
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../zeppelin_multitenancy/">Zeppelin Multitenancy</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Zeppelin Multitenancy</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#zeppelin-multitenancy">Zeppelin Multitenancy</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -175,7 +167,7 @@
         
       
     
-    <li>Sharing your Notebooks</li>
+    <li>Zeppelin Multitenancy</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -189,36 +181,14 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="sharing-your-notebooks">Sharing your Notebooks</h1>
-<p>You can privately and publically publish the Zeppelin notebook results to anyone you want to share using ZeppelinHub. As soon as you make any changes in Zeppelin, it will be reflected to ZeppelinHub immediately. In this documentation, we will explain how to create a space and how you can share Zeppelin notebooks and communicate with your team members.</p>
-<h2 id="what-is-space">What is Space?</h2>
-<p>ZeppelinHub Space is a unit of sharing notebooks. Using space, you can gather your own and shared notebooks from your team members efficiently. When you create a space, you can invite your team members. As a result, only invited people have an access permission to shared notebooks. A Space allows you to gather both <strong>Notebooks</strong> and <strong>Users</strong>. Make it a perfect place to share your new notebooks with your coworkers !</p>
-<h2 id="creating-a-space">Creating a Space</h2>
-<p>Let's create a space.</p>
-<p><img src="../img/add_space.png" width="35%" height="35%" style="box-shadow: 7px 7px 15px #999999;"/></p>
-<p>Click <strong>plus button</strong><img src="../img/plus_button.png"/>, then type your space name and a short description. </p>
-<p><img src="../img/type_space_name.png" width="55%" height="55%" style="box-shadow: 7px 7px 15px #999999;"/></p>
-<p>Then you can see your space just created in the dashboard. </p>
-<p><img src="../img/after_add_space.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/></p>
-<p>You can identify the notebook information in the Space such as <strong>the origin Zeppelin instance name of this notebook</strong>, <strong>the notebook creator name</strong> and <strong>the date of Last update</strong>. </p>
-<h2 id="adding-notebooks-to-the-space">Adding Notebooks to the Space</h2>
-<p>There are two ways for publishing a Notebook to a Space.</p>
-<ol>
-<li>
-<p>Just <strong>Drag and Drop</strong> your notebook to the space.
-    <img src="../img/share_notebooks_drag.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/></p>
-<p><br/ ></p>
-</li>
-<li>
-<p>Click <strong>share button</strong> <img src="../img/share_button.png"/> and select a space.
-    <img src="../img/share_notebooks_button.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/></p>
-</li>
-</ol>
-<h2 id="inviting-your-team-members-to-the-space">Inviting your team members to the Space</h2>
-<p>In the space, you can grant an access permission to your members. Once someone is added to your space, he (or maybe she) can see your space in his ZeppelinHub dashboard.</p>
-<p><img src="../img/invite_people.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/></p>
-<p>You can also give some feedbacks about the shared notebooks. Click <strong>conversation button</strong> <img src="../img/conversation_button.png"/>at the top of the notebook and start a conversation with your people about the report.</p>
-<p><img src="../img/conversation.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+                <h1 id="zeppelin-multitenancy">Zeppelin Multitenancy</h1>
+<p>In organization, it is not feaseble to make all users install and configure Zeppelin.
+Zeppelin Multitenancy feature allows you to have a single URL where all users go to get their own, containerized version of Zeppelin, utilasing resources of the shared cluster. Moreover, it will make using Zeppelin with ZeppelinHub easy in multi-user environment.</p>
+<p><img src="../img/zeppelin_multitenancy.png" width="80%" height="80%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<blockquote>
+<p><strong>Note: </strong> This is Beta, for now only Spark Standalone is supported. </p>
+</blockquote>
+<p>For the further informtation about Zeppelin Multitenancy, please visit <a href="https://github.com/NFLabs/z-manager/tree/master/multitenancy">Zeppelin Multitenancy</a>.</p>
               
             </div>
           </div>
@@ -226,10 +196,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../copying_notebooks/" class="btn btn-neutral float-right" title="Copying the Notebooks">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../zeppelinhub_viewer/" class="btn btn-neutral float-right" title="What is ZeppelinHub Viewer">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../zeppelin_integration/" class="btn btn-neutral" title="Zeppelin & ZeppelinHub Integration"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../copying_notebooks/" class="btn btn-neutral" title="Copying the Notebooks"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -257,10 +227,10 @@
           <a href="https://github.com/AhyoungRyu/hub-documentation" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../zeppelin_integration/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../copying_notebooks/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../copying_notebooks/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../zeppelinhub_viewer/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
