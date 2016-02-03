@@ -19,6 +19,8 @@ Then you can see your spaces list in the dashboard.
 
 <img src="../img/after_add_space.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
+You can identify the notebook information in the Space such as **the origin Zeppelin instance name of this notebook**, **the notebook creator name** and **the date of Last update**. 
+
 ## Adding Notebooks to the Space
 There are two ways for publishing a Notebook to a Space.
 
