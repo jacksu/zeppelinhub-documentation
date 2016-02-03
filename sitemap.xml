@@ -47,17 +47,19 @@
      <changefreq>daily</changefreq>
     </url>
         
-    <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelin_multitenancy/</loc>
-     <lastmod>2016-02-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
     
     <url>
      <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelinhub_viewer/</loc>
+     <lastmod>2016-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelin_multitenancy/</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
