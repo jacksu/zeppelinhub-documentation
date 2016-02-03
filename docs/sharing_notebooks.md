@@ -11,11 +11,11 @@ Let's create a space.
 
 <img src="../img/add_space.png" width="35%" height="35%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-After click **Plus Button**<img src="../img/plus_button.png"/>, type your space name and a short description. 
+Click **plus button**<img src="../img/plus_button.png"/>, then type your space name and a short description. 
 
 <img src="../img/type_space_name.png" width="55%" height="55%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-Then you can see your spaces list in the dashboard. 
+Then you can see your space just created in the dashboard. 
 
 <img src="../img/after_add_space.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
@@ -29,7 +29,7 @@ There are two ways for publishing a Notebook to a Space.
 	
 	<br/ >
 
-2. Click **Share Button** <img src="../img/share_button.png"/> and select a space.
+2. Click **share button** <img src="../img/share_button.png"/> and select a space.
 	<img src="../img/share_notebooks_button.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
 ## Inviting your team members to the Space
@@ -37,7 +37,7 @@ In the space, you can grant an access permission to your members. Once someone i
 
 <img src="../img/invite_people.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-You can also give some feedbacks about the shared notebooks. Click **Conversation Button** <img src="../img/conversation_button.png"/>at the top of the notebook and start a conversation with your people about the report.
+You can also give some feedbacks about the shared notebooks. Click **conversation button** <img src="../img/conversation_button.png"/>at the top of the notebook and start a conversation with your people about the report.
 
 <img src="../img/conversation.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
