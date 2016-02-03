@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//</loc>
+     <loc>https://www.zeppelinhub.com//</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//overview/</loc>
+     <loc>https://www.zeppelinhub.com//overview/</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -20,29 +20,13 @@
     
         
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelinhub_account/</loc>
+     <loc>https://www.zeppelinhub.com//zeppelinhub_account/</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelin_integration/</loc>
-     <lastmod>2016-02-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//sharing_notebooks/</loc>
-     <lastmod>2016-02-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//copying_notebooks/</loc>
+     <loc>https://www.zeppelinhub.com//zeppelin_integration/</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -50,8 +34,24 @@
     
 
     
+        
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelinhub_viewer/</loc>
+     <loc>https://www.zeppelinhub.com//sharing_notebooks/</loc>
+     <lastmod>2016-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.zeppelinhub.com//copying_notebooks/</loc>
+     <lastmod>2016-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://www.zeppelinhub.com//zeppelinhub_viewer/</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -59,7 +59,7 @@
 
     
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//zeppelin_multitenancy/</loc>
+     <loc>https://www.zeppelinhub.com//zeppelin_multitenancy/</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -67,7 +67,7 @@
 
     
     <url>
-     <loc>http://zeppelinhub-docs.readthedocs.org/en/latest//support/</loc>
+     <loc>https://www.zeppelinhub.com//support/</loc>
      <lastmod>2016-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
