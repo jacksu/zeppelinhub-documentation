@@ -1,9 +1,9 @@
 site_name: ZeppelinHub
-site_url: http://zeppelinhub-docs.readthedocs.org/en/latest/
-site_description: ZeppelinHub Documentation with Mkdocs + Readthedocs 
+site_url: https://www.zeppelinhub.com/
+site_description: ZeppelinHub Documentation 
 site_author: Ahyoung Ryu from NFLabs
 
-repo_url: https://github.com/AhyoungRyu/hub-documentation
+repo_url: https://github.com/NFLabs/zeppelinhub-documentation
 
 pages:
 - Home: index.md
