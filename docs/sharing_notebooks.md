@@ -1,43 +1,41 @@
-# Sharing your notebooks
+# Sharing your Notebooks
 
-In order to share your notebooks with people, you will have to use spaces.
+You can privately and publically publish the Zeppelin notebook results to anyone you want to share using ZeppelinHub. As soon as you make any changes in Zeppelin, it will be reflected to ZeppelinHub immediately. In this documentation, we will explain how to create a space and how you can share Zeppelin notebooks and communicate with your team members.
 
-<br/>
-## Spaces
 
-You can see your spaces and spaces you are part of on the Side Menu.
+## What is Space?
+ZeppelinHub Space is a unit of sharing notebooks. Using space, you can gather your own and shared notebooks from your team members efficiently. When you create a space, you can invite your team members. As a result, only invited people have an access permission to shared notebooks. A Space allows you to gather both **Notebooks** and **Users**. Make it a perfect place to share your new notebooks with your coworkers !
 
-<center><img  src="../img/menu_space.png" width="260"></center>
-
-A Space allows you to gather both **Notebooks** and **Users**. Making it a perfect place to share your new notebooks with your coworkers.
-
-<br/>
 ## Creating a Space
+Let's create a space.
 
-You can create a new space by clicking on the **+** button in the Side Menu.
+<img src="../img/add_space.png" width="35%" height="35%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-<img src="../img/add_space.png" width="260"/>
+After click **Plus Button**<img src="../img/plus_button.png"/>, type your space name and a short description. 
 
-You then, only have to specify a name to see it being created.
+<img src="../img/type_space_name.png" width="55%" height="55%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-<br/>
-## Adding Notebooks to a Space
+Then you can see your spaces list in the dashboard. 
 
-There are multiple ways to add a Notebook to a Space.
+<img src="../img/after_add_space.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-<img src="../img/add_notebook_space.png" width="800"/>
+## Adding Notebooks to the Space
+There are two ways for publishing a Notebook to a Space.
 
-__Drag and Drop__
+1. Just **Drag and Drop** your notebook to the space.
+	<img src="../img/share_notebooks_drag.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
+	
+	<br/ >
 
-You can drag and drop a notebook into a space or instance.
+2. Click **Share Button** <img src="../img/share_button.png"/> and select a space.
+	<img src="../img/share_notebooks_button.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-__Action Button__
+## Inviting your team members to the Space
+In the space, you can grant an access permission to your members. Once someone is added to your space, he (or maybe she) can see your space in his ZeppelinHub dashboard.
 
-You can also click the notebook's share icon.
+<img src="../img/invite_people.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-<br/>
-## Inviting Users to your Space
+You can also give some feedbacks about the shared notebooks. Click **Conversation Button** <img src="../img/conversation_button.png"/>at the top of the notebook and start a conversation with your people about the report.
 
-You can manage the members of your space by clicking on the <span><img style="margin:5px" src="../img/space_members.png" width="30"/></span> icon.
+<img src="../img/conversation.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-<img  src="../img/space_members_modal.png" width="500"/>
