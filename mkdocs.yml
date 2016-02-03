@@ -14,6 +14,7 @@ pages:
 - User Guide: 
     - Sharing your Notebooks: sharing_notebooks.md
     - Copying the Notebooks: copying_notebooks.md
+    - Zeppelin Multitenancy: zeppelin_multitenancy.md
 - What is ZeppelinHub Viewer: zeppelinhub_viewer.md
 - Support: support.md
 
