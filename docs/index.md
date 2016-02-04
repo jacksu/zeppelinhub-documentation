@@ -12,14 +12,18 @@ Do not send a graph in a PDF or Powerpoint again.
 
 #### <img src="img/connect.png" height="8%" width="8%"> Connect Apache Zeppelin and dynamically replicate your notebooks.
 
-If you installed Zeppelin and created ZeppelinHub account, you can generate a token for your Zeppelin instance. Then you can seamlessly connect your Zeppelin and ZeppelinHub.
+If you install Zeppelin and create an account for ZeppelinHub, you can generate a token for your Zeppelin instance. Then you can seamlessly connect Zeppelin and ZeppelinHub.
 
 ####  <img src="img/share.png" height="8%" width="8%"> Share your notebook with anyone, anywhere. 
-Apache Zeppelin provide a beautiful visualization for your data analysis results. Using ZeppelinHub, you can privately and publically publish the results to anyone you want to share. As you make changes in Zeppelin, it will be reflected to ZeppelinHub immediately.
+Apache Zeppelin provides a beautiful visualization for your data analysis results. Using ZeppelinHub, you can privately and publically publish the results to anyone you want to share. As you make changes in Zeppelin, it will be reflected to ZeppelinHub immediately.
 
 #### <img src="img/collaborate.png" height="8%" width="8%"> Create teams and spaces for sharing private notebooks.
 
-ZeppelinHub space is a unit of notebook sharing. You can privately share notebooks only your team having a permission. In ZeppelinHub, you can leave some comments below your notebook for the dynamic team work.
+ZeppelinHub space is a unit of notebook sharing. You can privately share notebooks only your team having an access permission. In ZeppelinHub, you can leave some comments in your notebook for the dynamic team work.
  
 # Discover the best of Zeppelin Notebooks
-[ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) is a community site for sharing Zeppelin notebooks. Using Viewer,you can explore some dramatic examples of Zeppelin notebooks. You can find more specific information about ZeppelinHub Viewer at [What is ZeppelinHub Viewer](zeppelinhub_viewer.md) section.
+[ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) is a community site for sharing Zeppelin notebooks. Using Viewer, you can explore some dramatic examples of Zeppelin notebooks. You can find more specific information about ZeppelinHub Viewer at [What is ZeppelinHub Viewer](zeppelinhub_viewer.md) section.
+
+# Zeppelin Multitenancy
+In organization, it is not feaseble to make all users install and configure Zeppelin. With single URL, all users go to get their own, containerized version of Zeppelin, utilising resources of the shared cluster.
+**Zeppelin Multitenancy** makes using Zeppelin with ZeppelinHub easier in multi-user environment. For the further information, please read [Zeppelin Multitenancy](zeppelin_multitenancy.md) section.
