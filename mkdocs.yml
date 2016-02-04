@@ -4,7 +4,7 @@ site_description: ZeppelinHub Documentation
 site_author: Ahyoung Ryu from NFLabs
 site_favicon: favicon.ico
 
-repo_url: https://github.com/NFLabs/zeppelinhub-documentation
+# repo_url: https://github.com/NFLabs/zeppelinhub-documentation
 
 pages:
 - Home: index.md
