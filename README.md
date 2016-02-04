@@ -27,6 +27,7 @@ This is the directory structure of this repository.
     |   |-- docs
     |       |-- css
     |       |-- img
+    |       |-- favicon.ico
     |       |-- index.md
     |       |-- *.md
     |   |-- site
