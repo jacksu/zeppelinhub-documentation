@@ -5,6 +5,6 @@ It's very straightforward. Click a **Copy Button**<img src="../img/copy_button.p
 
 <img src="../img/copy_notebooks1.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-You can also copy the notebook on the fly when you look into other team member's notebook.
+You can also copy the notebook instantly on the fly when you look into your team member's notebook.
 
 <img src="../img/copy_notebooks2.gif" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/>
