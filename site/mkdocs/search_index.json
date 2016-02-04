@@ -82,7 +82,7 @@
         }, 
         {
             "location": "/zeppelin_multitenancy/", 
-            "text": "Zeppelin Multitenancy\n\n\nIn organization, it is not feaseble to make all users install and configure Zeppelin.\nZeppelin Multitenancy feature allows you to have a single URL where all users go to get their own, containerized version of Zeppelin, utilasing resources of the shared cluster. Moreover, it will make using Zeppelin with ZeppelinHub easy in multi-user environment.\n\n\n\n\n\n\nNote: \n This is Beta, for now only Spark Standalone is supported. \n\n\n\n\nFor the further informtation about Zeppelin Multitenancy, please visit \nZeppelin Multitenancy\n.", 
+            "text": "Zeppelin Multitenancy\n\n\nIn organization, it is not feaseble to make all users install and configure Zeppelin.\n\nZeppelin Multitenancy\n feature allows you to have a single URL where all users go to get their own, containerized version of Zeppelin, utilising resources of the shared cluster. Moreover, it will make using Zeppelin with ZeppelinHub easy in multi-user environment.\n\n\n\n\n\n\nNote: \n This is Beta, for now only \nSpark Standalone\n is supported. \n\n\n\n\nFor the further informtation about Zeppelin Multitenancy, please visit Zeppelin Multitenancy \ngithub repository\n.", 
             "title": "Zeppelin Multitenancy"
         }, 
         {
