@@ -6,7 +6,7 @@
 
 ## How can you use Viewer ?
 
-You can easily find a text input box in [ZeppelinHub](https://www.zeppelinhub.com) and [ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) main web page. If you have any public notebook for your own ( or any other public notebook ), copy the `note.json` location and paste it to the input box and just click **VIEW** button.
+You can easily find a text input box in [ZeppelinHub](https://www.zeppelinhub.com) and [ZeppelinHub Viewer](https://www.zeppelinhub.com/viewer) main web page. If you have any public notebook for your own ( or any other public notebook ), copy the `note.json` location and paste it to the input box and click **VIEW** button.
 
 <center><img src="../img/input-box.png" height="70%" width="70%"></center>
 
