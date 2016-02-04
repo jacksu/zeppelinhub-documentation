@@ -1,4 +1,4 @@
-# Zeppelin Multitenancy
+<font class="header">Zeppelin Multitenancy</font>
 
 In organization, it is not feaseble to make all users install and configure Zeppelin.
 Zeppelin Multitenancy feature allows you to have a single URL where all users go to get their own, containerized version of Zeppelin, utilasing resources of the shared cluster. Moreover, it will make using Zeppelin with ZeppelinHub easy in multi-user environment.

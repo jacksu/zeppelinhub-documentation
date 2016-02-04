@@ -1,4 +1,5 @@
-# Managing your ZeppelinHub Account
+<font class="header">Managing your ZeppelinHub Account</font>
+
 Welcome your first step to explore ZeppelinHub!
 In this section, we will help you to get your foot in the door. 
 

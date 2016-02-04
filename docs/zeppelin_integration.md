@@ -1,4 +1,4 @@
-# Zeppelin integration with ZeppelinHub
+<font class="header">Zeppelin integration with ZeppelinHub</font>
 
 In this section, we will explain how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account. 
 

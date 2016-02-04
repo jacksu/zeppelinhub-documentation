@@ -1,4 +1,4 @@
-# Sharing your Notebooks
+<font class="header">Sharing your Notebooks</font>
 
 You can privately and publically publish your Zeppelin notebook results to anyone you want to share using ZeppelinHub. As soon as you make any changes in Zeppelin, it will be reflected to ZeppelinHub immediately. In this section, we will explain **how to create a space** and **how you can share Zeppelin notebooks and communicate with your team members**.
 
