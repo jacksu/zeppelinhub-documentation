@@ -1,0 +1,17 @@
+.header {
+  font-size: 26px;
+  font-family: "Roboto Slab", Times, serif;
+  font-weight: bold;
+}
+
+.middle {
+  font-size: 24px;
+  font-family: "Roboto Slab", Times, serif;
+  font-weight: bold;
+}
+
+.submenu {
+  color: #2980b9;
+  font-size: 18px;
+  font-family: "Roboto Slab", Times, serif;
+}
