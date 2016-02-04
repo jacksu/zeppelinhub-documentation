@@ -2,6 +2,7 @@ site_name: ZeppelinHub
 site_url: https://www.zeppelinhub.com/
 site_description: ZeppelinHub Documentation 
 site_author: Ahyoung Ryu from NFLabs
+site_favicon: favicon.ico
 
 repo_url: https://github.com/NFLabs/zeppelinhub-documentation
 
