@@ -1,6 +1,6 @@
 # Zeppelin integration with ZeppelinHub
 
-In this section, we will guide you how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account. 
+In this section, we will explain how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account. 
 
 ## Download integration library
 
@@ -13,7 +13,7 @@ You need to register for a ZeppelinHub account to obtain a Token. If you don't h
 
 <img src="../img/add_instance.png" width="35%" height="35%" style="box-shadow: 7px 7px 15px #999999;"/>
 
-Click the **plus button**<img src="../img/plus_button.png"/> and type a descriptive name for your new instance.
+Click the **plus button**<img src="../img/plus_button.png" width="4%" height="4%"/> and type a descriptive name for your new instance.
 
 <img src="../img/type_instance_name.png" width="55%" height="55%" style="box-shadow: 7px 7px 15px #999999;"/>
 
