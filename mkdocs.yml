@@ -9,16 +9,14 @@ site_favicon: favicon.ico
 pages:
 - Home: index.md
 - Overview: overview.md
-- Introduction:
+- User Guide: 
     - Managing your ZeppelinHub Account: zeppelinhub_account.md
     - Zeppelin & ZeppelinHub Integration: zeppelin_integration.md
-- User Guide: 
     - Sharing your Notebooks: sharing_notebooks.md
     - Copying the Notebooks: copying_notebooks.md
-- What is ZeppelinHub Viewer: zeppelinhub_viewer.md
-- Zeppelin Multitenancy: zeppelin_multitenancy.md
+    - What is ZeppelinHub Viewer: zeppelinhub_viewer.md
+    - Zeppelin Multitenancy: zeppelin_multitenancy.md
 - Support: support.md
 
 theme: readthedocs
-
-#extra_css: css/extra.css
+# extra_css: css/extra.css
