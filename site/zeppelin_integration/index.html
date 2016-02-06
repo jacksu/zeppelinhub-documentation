@@ -72,7 +72,7 @@
           
             <li>
     <ul class="subnav">
-    <li><span>Introduction</span></li>
+    <li><span>User Guide</span></li>
 
         
             
@@ -102,14 +102,6 @@
     </li>
 
         
-    </ul>
-<li>
-          
-            <li>
-    <ul class="subnav">
-    <li><span>User Guide</span></li>
-
-        
             
     <li class="toctree-l1 ">
         <a class="" href="../sharing_notebooks/">Sharing your Notebooks</a>
@@ -124,21 +116,21 @@
     </li>
 
         
-    </ul>
-<li>
-          
-            <li>
+            
     <li class="toctree-l1 ">
         <a class="" href="../zeppelinhub_viewer/">What is ZeppelinHub Viewer</a>
         
     </li>
-<li>
-          
-            <li>
+
+        
+            
     <li class="toctree-l1 ">
         <a class="" href="../zeppelin_multitenancy/">Zeppelin Multitenancy</a>
         
     </li>
+
+        
+    </ul>
 <li>
           
             <li>
@@ -170,7 +162,7 @@
     
       
         
-          <li>Introduction &raquo;</li>
+          <li>User Guide &raquo;</li>
         
       
     
@@ -184,23 +176,23 @@
           <div role="main">
             <div class="section">
               
-                <p><font class="header">Zeppelin integration with ZeppelinHub</font></p>
+                <p><font class="header-font">Zeppelin integration with ZeppelinHub</font></p>
 <p>In this section, we will explain how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account. </p>
 <h2 id="download-integration-library">Download integration library</h2>
 <p>First of all, you need a library for integration. Please click this <a href="https://s3-ap-northeast-1.amazonaws.com/zeppel.in/zeppelinhub-integration-v0.3.2-all.jar">download link</a>.</p>
 <p>Then copy your library into <code>lib</code> directory under your ZEPPELIN_HOME ( Zeppelin installation directory ). If you don't have <code>lib</code> folder, just create a new one.</p>
 <h2 id="add-a-new-zeppelin-instance-and-generate-a-token">Add a new Zeppelin Instance and Generate a Token</h2>
 <p>You need to register for ZeppelinHub account to obtain a Token. If you don't have ZeppelinHub account yet, please read <a href="../zeppelinhub_account/">Managing your ZeppelinHub Account</a> and sign up first. After login, you can add <strong>a new Zeppelin Instance</strong>.</p>
-<p><img src="../img/add_instance.png" width="35%" height="35%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p><img src="../img/add_instance.png" class="image-box" width="35%" height="35%"/></p>
 <p>Click the <strong>plus button</strong><img src="../img/plus_button.png" width="4%" height="4%"/> and type a descriptive name for your new instance.</p>
-<p><img src="../img/type_instance_name.png" width="55%" height="55%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p><img src="../img/type_instance_name.png" class="image-box" width="55%" height="55%"/></p>
 <p>Then, ZeppelinHub will create <strong>a Unique Token</strong> for you.</p>
-<p><img src="../img/instance_token.png" width="55%" height="55%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p><img src="../img/instance_token.png" class="image-box" width="55%" height="55%"/></p>
 <p>After then, you can see your instance list at <strong>Zeppelin Instances</strong> section in the dashboard.</p>
-<p><img src="../img/after_add_instance.png" width="35%" height="35%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p><img src="../img/after_add_instance.png" class="image-box" width="35%" height="35%"/></p>
 <p>After adding a new instance, you can manage your instances at <strong>Manage Instances</strong> tab in the <strong>Setting</strong> page ( click a <strong>gear button</strong> at the top ). In this page, you can edit your instances name or delete the instances from the list. </p>
 <p>But, be carefull. When deleting an Zeppelin instance in the list, it means that you no longer want to syncronize that Zeppelin instance with ZeppelinHub. So it will also remove all notebooks related to this instance from ZeppelinHub.</p>
-<p><img src="../img/manage_instance.png" width="100%" height="100%" style="box-shadow: 7px 7px 15px #999999;"/></p>
+<p><img src="../img/manage_instance.png" class="image-box" width="100%" height="100%"/></p>
 <p>As you can see the above screenshot image, you may also add a new instance using <strong>Orange Circle Button</strong>.</p>
 <h2 id="setting-zeppelin-environment-variables">Setting Zeppelin environment variables</h2>
 <p>When you connect a Zeppelin instance to your ZeppelinHub account, you need to set the following <strong>environment variables</strong> into your <code>ZEPPELIN_HOME/conf/zeppelin-env.sh</code> file. If you don't have this file, you can create it from <code>ZEPPELIN_HOME/conf/zeppelin-env.sh.template</code>. </p>
