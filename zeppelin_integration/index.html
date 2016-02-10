@@ -179,7 +179,7 @@
                 <p><font class="header-font">Zeppelin integration with ZeppelinHub</font></p>
 <p>In this section, we will explain how you could seamlessly connect your Zeppelin instance to your ZeppelinHub account. </p>
 <h2 id="download-integration-library">Download integration library</h2>
-<p>First of all, you need a library for integration. Please click this <a href="https://s3-ap-northeast-1.amazonaws.com/zeppel.in/zeppelinhub-integration-v0.3.2-all.jar">download link</a>.</p>
+<p>First of all, you need a library for integration. Please click this <a href="https://s3-ap-northeast-1.amazonaws.com/zeppel.in/zeppelinhub-integration-v0.3.3-all.jar">download link</a>.</p>
 <p>Then copy your library into <code>lib</code> directory under your ZEPPELIN_HOME ( Zeppelin installation directory ). If you don't have <code>lib</code> folder, just create a new one.</p>
 <h2 id="add-a-new-zeppelin-instance-and-generate-a-token">Add a new Zeppelin Instance and Generate a Token</h2>
 <p>You need to register for ZeppelinHub account to obtain a Token. If you don't have ZeppelinHub account yet, please read <a href="../zeppelinhub_account/">Managing your ZeppelinHub Account</a> and sign up first. After login, you can add <strong>a new Zeppelin Instance</strong>.</p>
@@ -187,6 +187,8 @@
 <p>Click the <strong>plus button</strong><img src="../img/plus_button.png" width="4%" height="4%"/> and type a descriptive name for your new instance.</p>
 <p><img src="../img/type_instance_name.png" class="image-box" width="55%" height="55%"/></p>
 <p>Then, ZeppelinHub will create <strong>a Unique Token</strong> for you.</p>
+<p>Optionally, you can also provide Zeppelin user credentials by clicking Include Zeppelin Credentials. This feature requires authentication setup on Zeppelin as a prerequisite. Be careful, for security reasons, we do not store your user key, make sure that you copied it before closing the popup.</p>
+<p>You can then see the following figure with your Instance's Token string (with user key if you provided any Zeppelin user credentials).</p>
 <p><img src="../img/instance_token.png" class="image-box" width="55%" height="55%"/></p>
 <p>After then, you can see your instance list at <strong>Zeppelin Instances</strong> section in the dashboard.</p>
 <p><img src="../img/after_add_instance.png" class="image-box" width="35%" height="35%"/></p>
@@ -205,6 +207,9 @@ cp zeppelin-env.sh.template zeppelin-env.sh
 <pre><code>export ZEPPELIN_NOTEBOOK_STORAGE=&quot;org.apache.zeppelin.notebook.repo.VFSNotebookRepo, com.nflabs.zeppelinhub.notebook.repo.ZeppelinHubRepo&quot;
 export ZEPPELINHUB_API_ADDRESS=&quot;https://www.zeppelinhub.com&quot;
 export ZEPPELINHUB_API_TOKEN=&quot;YOUR_TOKEN_STRING&quot;
+
+# With user key if provided
+export ZEPPELINHUB_USER_KEY=&quot;YOUR_USER_KEY&quot;
 </code></pre>
 
 <p>Now, start ( or restart ) Zeppelin. </p>
