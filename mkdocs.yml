@@ -19,4 +19,6 @@ pages:
 - Support: support.md
 
 theme: readthedocs
+extra_javascript:  
+  - js/extra.js
 # extra_css: css/extra.css
