@@ -1,5 +1,5 @@
-var original_url = "http://nflabs.github.io/zeppelinhub-documentation/";
-var new_url = "http://help.zeppelinhub.com/";
+var original_url = 'http://nflabs.github.io/zeppelinhub-documentation/';
+var new_url = 'http://help.zeppelinhub.com/';
 
 var pagenames = [
   " ",
@@ -14,6 +14,6 @@ var pagenames = [
   ];
 
 if ( window.location == original_url ) {
-  window.location.href= new_url;
+  window.location.href = new_url;
 }
 
