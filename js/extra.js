@@ -1,3 +1,6 @@
+val original_url = "http://nflabs.github.io/zeppelinhub-documentation/";
+val new_url = "http://help.zeppelinhub.com/";
+
 var pagenames = [
   " ",
   "overview",
@@ -10,7 +13,7 @@ var pagenames = [
   "support"
   ];
 
-if ( window.location == 'http://nflabs.github.io/zeppelinhub-documentation?' + pagenames ) {
-  window.location.href='http://help.zeppelinhub.com?' + pagenames;
+if ( window.location == original_url ) {
+  window.location.href= new_url;
 }
 
