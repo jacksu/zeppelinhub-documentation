@@ -10,7 +10,7 @@ var pagenames = [
   "support"
   ];
 
-if ( window.location == 'http://nflabs.github.io/zeppelinhub-documentation/?' + pagenames ) {
-  window.location.href='http://help.zeppelinhub.com/?' + pagenames;
+if ( window.location == 'http://nflabs.github.io/zeppelinhub-documentation?' + pagenames ) {
+  window.location.href='http://help.zeppelinhub.com?' + pagenames;
 }
 
