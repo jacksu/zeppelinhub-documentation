@@ -9,13 +9,13 @@ var pagenames = [
   "zeppelin_multitenancy",
   "support"
   ];
-    
-for ( i = 0; i < pagenames.length; i++ ) {
+
+//for ( i = 0; i < pagenames.length; i++ ) {
   var original_url = 'http://nflabs.github.io/zeppelinhub-documentation/';
   var new_url = 'http://help.zeppelinhub.com/';
 
-  if ( window.location == original_url + pagenames[i]) {
-    window.location.href = new_url + pagenames[i];
+  if ( window.location == original_url + pagenames[1]) {
+    window.location.href = new_url + pagenames[1];
   }
-}
+//}
 
