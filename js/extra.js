@@ -1,5 +1,5 @@
-val original_url = "http://nflabs.github.io/zeppelinhub-documentation/";
-val new_url = "http://help.zeppelinhub.com/";
+var original_url = "http://nflabs.github.io/zeppelinhub-documentation/";
+var new_url = "http://help.zeppelinhub.com/";
 
 var pagenames = [
   " ",
