@@ -15,7 +15,7 @@ var pagenames = [
 
 for ( i = 0; i < pagenames.length; i++ ) {
   if ( window.location == original_url + pagenames[i]) {
-    window.location.href = new_url pagenames[i];
+    window.location.href = new_url + pagenames[i];
   }
 }
 
