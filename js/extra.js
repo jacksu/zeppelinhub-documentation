@@ -13,7 +13,7 @@ var pagenames = [
   "support"
   ];
 
-if ( window.location == original_url ) {
-  window.location.href = new_url;
+if ( window.location == original_url + pagenames) {
+  window.location.href = new_url + pagenames;
 }
 
