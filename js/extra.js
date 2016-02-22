@@ -11,11 +11,11 @@ var pagenames = [
   ];
   
 for ( i = 0; i < pagenames.length; i++ ) {
-  var original_url = 'http://nflabs.github.io/zeppelinhub-documentation/';
-  var new_url = 'http://help.zeppelinhub.com/';
+  var originalUrl = 'http://nflabs.github.io/zeppelinhub-documentation/';
+  var newUrl = 'http://help.zeppelinhub.com/';
 
-  if ( window.location == original_url + pagenames[i]) {
-    window.location.href = new_url + pagenames[i];
+  if ( window.location == originalUrl + pagenames[i]) {
+    window.location.href = newUrl + pagenames[i];
   }
 }
 
