@@ -26,6 +26,9 @@ This is the directory structure of this repository.
     |-- home
     |   |-- docs
     |       |-- css
+    |           |--extra.css
+    |       |-- js
+    |           |--extra.js
     |       |-- img
     |       |-- favicon.ico
     |       |-- index.md
@@ -68,4 +71,4 @@ $ mkdocs gh-deploy --clean
 
 # Documentation URL
 After complete the deploy, you can see the final result. 
-[http://nflabs.github.io/zeppelinhub-documentation/](http://nflabs.github.io/zeppelinhub-documentation/)
+[http://help.zeppelinhub.com/](http://help.zeppelinhub.com/) 
