@@ -13,7 +13,7 @@ pip 1.5.X
 Install the mkdocs package using pip:
 
 ```
-pip install mkdocs
+$ pip install mkdocs
 ```
 
 ## 2. Clone this repository
