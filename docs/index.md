@@ -1,8 +1,11 @@
-<center><a href="https://www.zeppelinhub.com"><img src="img/zeppelinhub_logo.png" height="50%" width="50%"></a></center>
+<!--<center><a href="https://www.zeppelinhub.com"><img src="img/zeppelinhub_logo.png" height="50%" width="50%"></a></center>
 <br />
-
-<font class="header-font">Three advantages and Benefits of ZeppelinHub</font>
+-->
+<font class="header-font">ZeppelinHub Documentation</font>
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/lKoan-fNYc8" frameborder="0" allowfullscreen></iframe></center>
+
+<br/><br/>
+<font class="middle-font">Three advantages and Benefits of ZeppelinHub</font>
 
 <img src="img/connect.png" height="8%" width="8%"><font class="image-font"> Connect Apache Zeppelin and dynamically replicate your notebooks.</font>
 
