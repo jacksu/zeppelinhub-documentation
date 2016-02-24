@@ -23,32 +23,45 @@ Just clone this repository.
 This is the directory structure of this repository.
 
 ```
-    |-- home
+    |-- zeppelinhub-documentation
     |   |-- docs
+    |       |-- CNAME
     |       |-- css
-    |           |--extra.css
     |       |-- js
-    |           |--extra.js
     |       |-- img
     |       |-- favicon.ico
     |       |-- index.md
     |       |-- *.md
-    |   |-- site
+    |   |-- custom_theme
+            |-- *.html
+            |-- __init__.py
+            |-- css
+            |-- img
+            |-- js
+            |-- fonts
+            |-- license
     |   |-- mkdocs.yml
     |   |-- README.md
 
 ```
 
-* `/home/docs` : Under this directory, css file, image files for docs and all of the `.md` files are located.
-* `/home/docs/index.md` : `index.md` file define a [Home page](http://nflabs.github.io/zeppelinhub-documentation/). ( Actually, It's a convetion name of Mkdocs. )
-* `home/site` : The build result will be saved under this directory.
-* `home/mkdocs.yml` : It's a config file. Site name, documentation list structure and etc etc are configured in this file. 
+* `/mkdocs.yml` : All of the configuration properties will be defined in this file.
+* `/docs` : Under this directory, css file, image files for docs and all of the `.md` files are located in this directory.
+* `/docs/CNAME` : Using this file, you can define the domain name: [http://help.zeppelinhub.com](http://help.zeppelinhub.com).
+* `/docs/css/extra.css`, `/docs/js/extra.js` : You can define extra CSS and javascript function in these directory.
+* `/docs/img/*.png` : You can put all of the image file used for documentation files.
+* `/docs/favicon.ico` : This file will make favicon image to the browser tab. 
+* `/docs/index.md` : `index.md` file will make [Home Page](http://help.zeppelinhub.com/) of this site. ( Actually, It's a convetion name of Mkdocs. )
+* `/docs/*.md` : All of the markdown(documentation) files will be located.
+* `/custom-theme/` : All of components related with site theme are located in this directory.  
+* `/custom-theme/__init__.py` : This python file helps this directory to be recognized as a part of this package.
+* `/custom-theme/*.html` : All of the html files composing theme components are located.
+* `/custom-theme/css/*.css` : If you want to customize theme, modify `theme-extra.css` file.
+* `/custom-theme/js/*.js` : All of javascript files related with theme actions are located in this directory.
 
-If you want to add a new file, just locate a new `.md` file under `/docs` and add this file information to the <code>[mkdocs.yml](https://github.com/NFLabs/zeppelinhub-documentation/blob/master/mkdocs.yml)</code>.
-
+If you want to add a new file, just locate the new `.md` file under `/docs` and add some information about the docs to the <code>[mkdocs.yml](https://github.com/NFLabs/zeppelinhub-documentation/blob/master/mkdocs.yml)</code>. 
 
 ## 4. Build and deploy the site
-
 
 MkDocs comes with a built-in webserver that lets you preview your documentation as you work on it. Start the webserver by making sure you are in the same directory as the `mkdocs.yml` config file, and then running the mkdocs serve command:
 
@@ -56,6 +69,7 @@ MkDocs comes with a built-in webserver that lets you preview your documentation 
 $ mkdocs serve
 Running at: http://127.0.0.1:8000/
 ```
+Then you can check your change in realtime at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 Before the deployment, build the site for making sure there is no errors. `--clean` option enables to remove any stale files.
 
@@ -63,12 +77,12 @@ Before the deployment, build the site for making sure there is no errors. `--cle
 $ mkdocs build --clean
 ```
 
-After then, deploy it to the site.
+After then, let's deploy it to ZeppelinHub Documentation site.
 
 ```
 $ mkdocs gh-deploy --clean
 ```
 
 # Documentation URL
-After complete the deploy, you can see the final result. 
+After complete the deploy, you can see the final result.
 [http://help.zeppelinhub.com/](http://help.zeppelinhub.com/) 
