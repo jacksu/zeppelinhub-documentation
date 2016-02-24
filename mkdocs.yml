@@ -9,8 +9,8 @@ site_favicon: favicon.ico
 
 # Included pages list
 pages:
-- Home: index.md
-- Overview: overview.md
+- Introduction: index.md
+- Key Concepts: overview.md
 - User Guide: 
     - ZeppelinHub Account: zeppelinhub_account.md
     - Zeppelin & ZeppelinHub Integration: zeppelin_integration.md
