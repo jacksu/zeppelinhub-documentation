@@ -10,6 +10,12 @@ h3, h4, h5, h6 {
     font-weight: 300
 }
 
+/* top content */
+.top img {
+  max-width: 100%;
+  height: 30% !important;
+}
+
 /*
  * Sphinx doesn't have support for section dividers like we do in
  * MkDocs, this styles the section titles in the nav
@@ -29,6 +35,10 @@ h3, h4, h5, h6 {
     padding: 0.4045em 2.427em;
 }
 
+.wy-nav-content {
+  padding-top: 0.8em;
+}
+
 /*
  * Long navigations run off the bottom of the screen as the nav
  * area doesn't scroll.
@@ -37,7 +47,25 @@ h3, h4, h5, h6 {
  */
 .wy-nav-side {
     height: 100%;
+    box-shadow: 3px 0px 8px 0px #8e927e;
     overflow-y: auto;
+    background: #393636;
+}
+
+.wy-nav-title {
+  padding-right: 0; 
+  display: inline-block; 
+  position: relative; 
+  line-height: 50px;
+}
+
+.wy-side-nav-search img {
+  height: 34px;
+  position: relative;
+  display: inline;
+  top: 5px;
+  margin-left: -10px;
+  border-radius: 0%;
 }
 
 /*
@@ -50,13 +78,22 @@ h3, h4, h5, h6 {
   margin-bottom: 2em;
 }
 
+.wy-menu-vertical a {
+  font-size: 95%;
+}
+
 /*
  * Fix wrapping in the code highlighting
  *
  * https://github.com/mkdocs/mkdocs/issues/233
  */
-code {
+code, .rst-content tt {
     white-space: pre;
+    font-family: "Menlo", "Lucida Console", monospace;
+    font-size: 78%;
+    color: black;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
 }
 
 /*
@@ -66,6 +103,7 @@ code {
  * https://github.com/mkdocs/mkdocs/issues/313
  */
 p code {
+    border-radius: 4px;
     word-wrap: break-word;
 }
 
