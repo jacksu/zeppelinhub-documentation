@@ -1,24 +1,28 @@
+# Site Information
 site_name: ZeppelinHub
 site_url: http://help.zeppelinhub.com/
-site_description: ZeppelinHub Documentation 
-site_author: Ahyoung Ryu from NFLabs
+site_description: ZeppelinHub Documentation Site
+site_author: NFLabs
 site_favicon: favicon.ico
 
 # repo_url: https://github.com/NFLabs/zeppelinhub-documentation
 
+# Included pages list
 pages:
-- Home: index.md
-- Overview: overview.md
+- Introduction: index.md
+- Key Concepts: overview.md
 - User Guide: 
-    - Managing your ZeppelinHub Account: zeppelinhub_account.md
+    - ZeppelinHub Account: zeppelinhub_account.md
     - Zeppelin & ZeppelinHub Integration: zeppelin_integration.md
-    - Sharing your Notebooks: sharing_notebooks.md
-    - Copying the Notebooks: copying_notebooks.md
-    - What is ZeppelinHub Viewer: zeppelinhub_viewer.md
+    - Sharing Notebooks: sharing_notebooks.md
+    - Copying Notebooks: copying_notebooks.md
+    - ZeppelinHub Viewer: zeppelinhub_viewer.md
     - Zeppelin Multitenancy: zeppelin_multitenancy.md
 - Support: support.md
 
-theme: readthedocs
+# Theme & Javascript & CSS
+theme_dir: 'custom_theme'
 extra_javascript:  
   - js/extra.js
-# extra_css: css/extra.css
+extra_css: 
+  - css/extra.css

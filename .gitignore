@@ -1,0 +1,5 @@
+# Ignore all of the build result file
+site/
+
+# .DS_Store
+*.DS_Store
